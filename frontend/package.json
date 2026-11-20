@@ -29,7 +29,7 @@
     "pdfkit": "0.20.2",
     "prosemirror-commands": "1.7.2",
     "prosemirror-keymap": "1.2.3",
-    "prosemirror-model": "1.25.12",
+    "prosemirror-model": "1.25.13",
     "prosemirror-state": "1.4.4",
     "prosemirror-view": "1.42.9",
     "radix-ui": "1.8.1",
