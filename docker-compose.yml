@@ -38,7 +38,7 @@ services:
       interval: 3s
       retries: 30
   mailpit:
-    image: axllent/mailpit:v1.27.0@sha256:fb84cfb1c3a33007cfdee8ba5a77b8c6c894de5b1a368372ddc5c965cf5c0b6d
+    image: axllent/mailpit:v1.34.0@sha256:23a2ef85bc50853ab3093645d1d64679afd8887e89da5e48a88940c172591a4e
     environment:
       MP_DISABLE_VERSION_CHECK: "true"
     ports: ["127.0.0.1:${RESUMISER_MAILPIT_SMTP_PORT:-1025}:1025", "127.0.0.1:${RESUMISER_MAILPIT_UI_PORT:-8025}:8025"]
