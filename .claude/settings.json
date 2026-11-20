@@ -1,0 +1,30 @@
+{
+  "hooks": {
+    "SubagentStop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PROJECT_DIR}/.claude/hooks/log-usage.py",
+            "args": [],
+            "async": true,
+            "timeout": 30
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PROJECT_DIR}/.claude/hooks/log-usage.py",
+            "args": [],
+            "async": true,
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}

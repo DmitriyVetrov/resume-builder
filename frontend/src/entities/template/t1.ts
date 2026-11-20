@@ -1,0 +1,40 @@
+import type { TemplateDefinition } from './types';
+
+/** T1 Classic Timeline: TECHNICAL-SPEC §6, with ADR-026, ADR-027, ADR-028, ADR-030, ADR-031. This file is the pattern for further templates. */
+export const t1: TemplateDefinition = {
+  id: 'T1',
+  name: 'Classic Timeline',
+  accents: [{ name: 'Blue', hex: '#2A68A0' }, { name: 'Navy', hex: '#335776' }, { name: 'Graphite', hex: '#333333' }],
+  fonts: ['roboto', 'ibm-plex-sans', 'pt-serif'],
+  defaults: { fontPreset: 'M', sectionSpacing: 10, entrySpacing: 10, lineSpacing: 1, margin: 23, pageSize: 'A4', accentPreset: 0 },
+  styles: {
+    name: { size: 24, bold: true, italic: false, upper: true, color: 'accent' },
+    headline: { size: 14, bold: true, italic: false, upper: true, color: 'ink' },
+    contact: { size: 10, bold: false, italic: false, upper: false, color: 'ink' },
+    sectionTitle: { size: 14, bold: true, italic: false, upper: true, color: 'accent' },
+    body: { size: 10, bold: false, italic: false, upper: false, color: 'ink' },
+    listItem: { size: 11, bold: false, italic: false, upper: false, color: 'ink' },
+    entryTitle: { size: 11, bold: true, italic: false, upper: true, color: 'ink' },
+    entryOrganization: { size: 10, bold: false, italic: false, upper: false, color: 'accent' },
+    entryLocation: { size: 10, bold: false, italic: false, upper: false, color: 'ink' },
+    entryDates: { size: 10, bold: false, italic: true, upper: false, color: 'ink' },
+  },
+  colors: { ink: '#050505', line: '#CDCDCD', onAccent: '#FFFFFF' },
+  link: { color: 'accent', underline: false },
+  gaps: { sectionTitle: 10, paragraph: 6, listRow: 5, descriptionTop: 12, descriptionRow: 10, titleOrganization: 5, columnGutter: 20 },
+  continuationTopExtra: 8,
+  marker: { width: 4, height: 4, radius: 1, slot: 19, top: 4, color: 'accent' },
+  header: {
+    kind: 'plain',
+    photo: { size: 70, radius: 9, gap: 20 },
+    rule: { height: 1, color: 'line', offset: 54, contactGap: 6 },
+    contacts: 'separated',
+    icons: false,
+    chip: null,
+    bandPadding: 0,
+  },
+  list: { defaultColumns: 2, oneColumnStyle: 'body', indent: 19, twoColumnIndent: 37, chip: null },
+  entries: { marker: 'timeline', defaultColumns: 2, indent: 18, timeline: { x: 3, width: 1, dot: { width: 7, height: 8, radius: 2 }, dotTop: 2 } },
+  text: { defaultColumns: 1 },
+  zones: null,
+};

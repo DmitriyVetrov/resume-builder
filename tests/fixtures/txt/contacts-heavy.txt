@@ -1,0 +1,7 @@
+Lucía Ñáñez-Šťastná de la Fuente y Montenegro | Ingeniera de plataformas e Інженерка
+Go • PostgreSQL • Kubernetes • Azure • Terraform • Observability • Migraciones • Міграції
+person00@example.invalid | person01@example.invalid | person02@example.invalid | +34 600 000 010 | +34 600 000 011 | +34 600 000 012 | València, España 20 | València, España 21 | València, España 22 | example.invalid/in/person30 (https://example.invalid/in/person30) | example.invalid/in/person31 (https://example.invalid/in/person31) | example.invalid/in/person32 (https://example.invalid/in/person32) | València, España 40 | València, España 41 | València, España 42
+
+Resumen
+
+Ingeniera de software con experiencia en servicios distribuidos, migración de monolitos y mejora continua; también colabora con equipos de diseño, datos y atención al cliente en proyectos de larga duración.

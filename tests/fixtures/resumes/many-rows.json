@@ -1,0 +1,1860 @@
+{
+ "title": "Many rows",
+ "templateId": "T1",
+ "accentPreset": 0,
+ "language": "es",
+ "dateFormat": "MonthYearLong",
+ "layout": {
+  "fontPreset": "M",
+  "sectionSpacing": 10,
+  "entrySpacing": 10,
+  "lineSpacing": 1,
+  "pageSize": "A4",
+  "margins": {
+   "top": 23,
+   "right": 23,
+   "bottom": 23,
+   "left": 23
+  },
+  "bodyFont": null
+ },
+ "header": {
+  "fullName": "Lucía Ñáñez-Šťastná | Інженерка",
+  "headline": "Go • PostgreSQL • Kubernetes • Azure",
+  "showPhoto": true,
+  "contacts": [
+   {
+    "id": "01934f6e-7a2b-7c3d-8e4f-000000000001",
+    "text": "lucia@example.invalid",
+    "url": null,
+    "kind": "email"
+   },
+   {
+    "id": "01934f6e-7a2b-7c3d-8e4f-000000000002",
+    "text": "+34 600 000 000 • València, España • Residencia permanente",
+    "url": null,
+    "kind": "other"
+   },
+   {
+    "id": "01934f6e-7a2b-7c3d-8e4f-000000000003",
+    "text": "example.invalid/in/lucia",
+    "url": "https://example.invalid/in/lucia",
+    "kind": "link"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "hidden": false,
+   "listColumns": 2,
+   "placement": null,
+   "id": "01934f6e-7a2b-7c3d-8e4f-000000000020",
+   "type": "list",
+   "title": "Habilidades",
+   "content": {
+    "items": [
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000021",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones 0",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000022",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 1",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000023",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 2",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000024",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 3",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000025",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 4",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000026",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones 5",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000027",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 6",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000028",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 7",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000029",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 8",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000030",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 9",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000031",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones 10",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000032",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 11",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000033",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 12",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000034",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 13",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000035",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 14",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000036",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones 15",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000037",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 16",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000038",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 17",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000039",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 18",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000040",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 19",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000041",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones 20",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000042",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 21",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000043",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 22",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000044",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 23",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000045",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 24",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000046",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones 25",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000047",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 26",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000048",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 27",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000049",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 28",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000050",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 29",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000051",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones 30",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000052",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 31",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000053",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 32",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000054",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 33",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000055",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 34",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000056",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones 35",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000057",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 36",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000058",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 37",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000059",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 38",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000060",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 39",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000061",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones 40",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000062",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 41",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000063",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 42",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000064",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 43",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000065",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 44",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000066",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones 45",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000067",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 46",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000068",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 47",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000069",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 48",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000070",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 49",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000071",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones 50",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000072",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 51",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000073",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 52",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000074",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 53",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000075",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 54",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000076",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones 55",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000077",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 56",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000078",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 57",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000079",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 58",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000080",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 59",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000081",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones 60",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000082",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 61",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000083",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 62",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000084",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 63",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000085",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 64",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000086",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones 65",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000087",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 66",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000088",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 67",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000089",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 68",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000090",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 69",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000091",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones 70",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000092",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 71",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000093",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 72",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000094",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 73",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000095",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 74",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000096",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones 75",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000097",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 76",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000098",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 77",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000099",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 78",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000100",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 79",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000101",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones 80",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000102",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 81",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000103",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 82",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000104",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 83",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000105",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 84",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000106",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones 85",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000107",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 86",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000108",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 87",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000109",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 88",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000110",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 89",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000111",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones 90",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000112",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 91",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000113",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 92",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000114",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 93",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000115",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 94",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000116",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones 95",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000117",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 96",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000118",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 97",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000119",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 98",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000120",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 99",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000121",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones 100",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000122",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 101",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000123",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 102",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000124",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 103",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000125",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 104",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000126",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones 105",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000127",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 106",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000128",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 107",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000129",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 108",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000130",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 109",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000131",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones 110",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000132",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 111",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000133",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 112",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000134",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 113",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000135",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 114",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000136",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones 115",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000137",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 116",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000138",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 117",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000139",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 118",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000140",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 119",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000141",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones 120",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000142",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 121",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000143",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 122",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000144",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 123",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000145",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 124",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000146",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones 125",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000147",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 126",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000148",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 127",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000149",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 128",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000150",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 129",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000151",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones 130",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000152",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 131",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000153",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 132",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000154",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 133",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000155",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 134",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000156",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones 135",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000157",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 136",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000158",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 137",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000159",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 138",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000160",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 139",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000161",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones 140",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000162",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 141",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000163",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 142",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000164",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 143",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000165",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 144",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000166",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones 145",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000167",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 146",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000168",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 147",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000169",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 148",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000170",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Skill number 149",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

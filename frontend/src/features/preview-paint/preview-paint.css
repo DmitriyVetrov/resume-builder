@@ -1,0 +1,5 @@
+/* The painted page (FR-PRV-01). Positions inside are the model's, in points; only the transform scales them. */
+.page-frame { overflow:hidden; background:#fff; }
+.page-stage { position:relative; transform-origin:0 0; }
+.page-paint { position:absolute; inset:0; }
+.page-thumbnail { width:100%; pointer-events:none; }

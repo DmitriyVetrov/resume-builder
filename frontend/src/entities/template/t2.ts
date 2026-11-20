@@ -1,0 +1,40 @@
+import type { TemplateDefinition } from './types';
+
+/** T2 Compact: ADR-024, with DD-P10-08 for chips against list columns. */
+export const t2: TemplateDefinition = {
+  id: 'T2',
+  name: 'Compact',
+  accents: [{ name: 'Teal', hex: '#0F6A5B' }, { name: 'Slate', hex: '#335776' }, { name: 'Plum', hex: '#6A4A9C' }],
+  fonts: ['ibm-plex-sans', 'roboto', 'pt-serif'],
+  defaults: { fontPreset: 'M', sectionSpacing: 6, entrySpacing: 6, lineSpacing: 1, margin: 23, pageSize: 'A4', accentPreset: 0 },
+  styles: {
+    name: { size: 22, bold: true, italic: false, upper: false, color: 'ink' },
+    headline: { size: 11, bold: false, italic: false, upper: false, color: 'accent' },
+    contact: { size: 9, bold: false, italic: false, upper: false, color: 'ink' },
+    sectionTitle: { size: 11, bold: true, italic: false, upper: true, color: 'ink' },
+    body: { size: 9.5, bold: false, italic: false, upper: false, color: 'ink' },
+    listItem: { size: 9, bold: false, italic: false, upper: false, color: 'ink' },
+    entryTitle: { size: 9.5, bold: true, italic: false, upper: true, color: 'ink' },
+    entryOrganization: { size: 9.5, bold: false, italic: false, upper: false, color: 'accent' },
+    entryLocation: { size: 9.5, bold: false, italic: false, upper: false, color: 'ink' },
+    entryDates: { size: 9.5, bold: false, italic: false, upper: false, color: 'accent' },
+  },
+  colors: { ink: '#050505', line: '#CDCDCD', onAccent: '#FFFFFF' },
+  link: { color: 'accent', underline: false },
+  gaps: { sectionTitle: 6, paragraph: 6, listRow: 4, descriptionTop: 6, descriptionRow: 4, titleOrganization: 5, columnGutter: 12 },
+  continuationTopExtra: 8,
+  marker: { width: 4, height: 4, radius: 2, slot: 12, top: 4, color: 'ink' },
+  header: {
+    kind: 'plain',
+    photo: null,
+    rule: { height: 1, color: 'accent', offset: 0, contactGap: 0 },
+    contacts: 'chips',
+    icons: true,
+    chip: { fill: '#E9EDF1', radius: 4, paddingX: 6, paddingY: 3, gap: 4 },
+    bandPadding: 0,
+  },
+  list: { defaultColumns: 'chips', oneColumnStyle: 'body', indent: 12, twoColumnIndent: 12, chip: { fill: '#E9EDF1', radius: 4, paddingX: 6, paddingY: 3, gap: 4 } },
+  entries: { marker: 'none', defaultColumns: 1, indent: 0, timeline: null },
+  text: { defaultColumns: 1 },
+  zones: null,
+};

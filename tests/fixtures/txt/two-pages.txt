@@ -1,0 +1,58 @@
+Lucía Ñáñez-Šťastná | Інженерка
+Go • PostgreSQL • Kubernetes • Azure
+lucia@example.invalid | +34 600 000 000 • València, España • Residencia permanente | example.invalid/in/lucia (https://example.invalid/in/lucia)
+
+Resumen profesional
+
+Ingeniera de software con experiencia en servicios distribuidos, migración de monolitos y mejora continua; también colabora con equipos de diseño, datos y atención al cliente en proyectos de larga duración.
+
+Що я вмію
+
+- Backend en Go y C#, servicios escalables
+- REST y gRPC, integración con terceros
+- Міграція монолітів на сервіси
+- PostgreSQL, Entity Framework, índices
+- Kubernetes, Helm, Terraform
+- CI/CD, Azure DevOps, GitHub Actions
+
+Experiencia profesional
+
+Ingeniera de plataforma — Ñandú Sistemas
+València, España (Remoto) | enero 2023 - Actualidad
+Ingeniera de software con experiencia en servicios distribuidos, migración de monolitos y mejora continua; también colabora con equipos de diseño, datos y atención al cliente en proyectos de larga duración.
+- Rendimiento: redujo la latencia p95 del servicio de facturación de 900 ms a 180 ms mediante caché y consultas nuevas.
+- Відмовостійкість: запровадила автоматичне відновлення черг і скоротила кількість нічних інцидентів удвічі протягом року.
+- Observability: introduced structured logs and tracing across fourteen services, and retired two legacy dashboards.
+- Published the on-call runbook (https://example.invalid/runbook) and trained three teams to use it during incidents.
+
+Backend Engineer — Example Payments
+Windsor, Canada (Freelance, Remote) | abril 2021 - junio 2023
+Інженерка програмного забезпечення з досвідом розробки розподілених сервісів, міграції застарілих систем та налагодження процесів безперервної доставки для команд у різних часових поясах.
+- Відмовостійкість: запровадила автоматичне відновлення черг і скоротила кількість нічних інцидентів удвічі протягом року.
+- Observability: introduced structured logs and tracing across fourteen services, and retired two legacy dashboards.
+- Published the on-call runbook (https://example.invalid/runbook) and trained three teams to use it during incidents.
+- Mentored four engineers; two now lead their own teams on separate product lines.
+- Automated release notes and reduced the time from merge to production to under an hour.
+- Rendimiento: redujo la latencia p95 del servicio de facturación de 900 ms a 180 ms mediante caché y consultas nuevas.
+- Відмовостійкість: запровадила автоматичне відновлення черг і скоротила кількість нічних інцидентів удвічі протягом року.
+- Observability: introduced structured logs and tracing across fourteen services, and retired two legacy dashboards.
+- Published the on-call runbook (https://example.invalid/runbook) and trained three teams to use it during incidents.
+- Mentored four engineers; two now lead their own teams on separate product lines.
+- Automated release notes and reduced the time from merge to production to under an hour.
+- Rendimiento: redujo la latencia p95 del servicio de facturación de 900 ms a 180 ms mediante caché y consultas nuevas.
+- Відмовостійкість: запровадила автоматичне відновлення черг і скоротила кількість нічних інцидентів удвічі протягом року.
+- Observability: introduced structured logs and tracing across fourteen services, and retired two legacy dashboards.
+
+Освіта
+
+Máster en Ingeniería Informática — Universidad de València
+València, España | 2010 - 2012
+
+Technical skills
+
+- Bases de datos: PostgreSQL, SQL Server, Redis
+- Хмара: Azure, Kubernetes, Docker
+
+Languages
+
+Español - nativo | Українська - рідна | English - B2 | Slovenčina - pokročilá

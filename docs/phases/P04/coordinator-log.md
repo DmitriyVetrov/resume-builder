@@ -1,0 +1,20 @@
+- 2026-11-03 run run_6d8d594259cb (shared P04+P05), worktree /home/dmytro/orca/workspaces/resumiser/p04
+- 2026-11-03 step solution-architect: codex gpt-6-sol high, check PASS, committed
+- 2026-11-03 step test-architect: codex gpt-6-sol high, check PASS, committed
+- 2026-11-03 re-dispatch via --terminal silently failed (no task created); re-dispatched as fresh codex gpt-6-sol medium worker; dispatch output now checked for ok/taskId
+- 2026-11-03 step test-engineer: codex gpt-6-sol medium (2nd dispatch after silent --terminal failure), check PASS (red), committed
+- 2026-11-03 backend-developer pass 1: outcome failed — harness bugs (host assembly path under backend/tests/src, port 0 selection) -> test-engineer; WIP committed
+- 2026-11-03 harness fix: test-engineer corrected API test harness; 7 API reds remain for backend-developer; committed
+- 2026-11-03 backend-developer pass 2: production fixes done, 16/18 API tests pass; 2 rate-limit tests off by one (Host.Start consumes a permit) -> test-engineer
+- 2026-11-03 rate-limit test fix by test-engineer; suite green (11 arch, 18 api, 66 contract)
+- 2026-11-03 test-engineer made suite.cmd self-contained (Mongo image default from images.lock); suite green via handoff check; committed
+- 2026-11-03 step code-reviewer: claude sonnet high, FAIL (C-1 critical logging leak; M-1 test projects not in slnx; M-2 dotnet format; M-3 health base path vs contract -> SA; M-4 vacuous guards -> TE). Fix cycle 1: SA + TE in parallel, then BE
+- 2026-11-03 review cycle 1: SA DD-P04-05 (health at /api/v1/health/*), TE strengthened tests (red); BE next
+- 2026-11-03 11:15 CET PAUSED: Codex session limit hit (usageLimitReached; retry after 14:50 per provider message) during step backend-developer review fix cycle 1 (dispatch ctx_ed2e04914fac, task_52b6ce6fbbc3). No uncommitted changes. Resume: re-run /run-project; continue from backend-developer review fix cycle 1 (C-1, M-1, M-2, M-3 per review + DD-P04-05), then delta re-review, QA, gate, then DD-P05-06 shared Compose/CI wiring. P05 already COMPLETED and merged to main.
+- 2026-11-03 ~11:20 CET RESUMED: Backend Developer worker (ctx_ed2e04914fac) became active again after the Codex limit message; PHASE-STATUS back to IN_PROGRESS. Escalation: dotnet format (M-2) needs Test Engineer to format 7 test files -> separate TE step after BE finishes.
+- 2026-11-03 review cycle 1: backend-developer fixed C-1, M-1, M-3, production formatting; suite green; CI backend blocked only on dotnet format of 7 test files -> test-engineer
+- 2026-11-03 format step by test-engineer: backend CI + suite green; committed
+- 2026-11-03 step code-reviewer cycle 2 (delta): claude sonnet high, PASS
+- 2026-11-03 step qa: codex gpt-6-sol medium, PASS
+- 2026-11-03 code-reviewer wording fix so the gate parser reads the final PASS
+- 2026-11-03 gate PASS; P04 COMPLETED

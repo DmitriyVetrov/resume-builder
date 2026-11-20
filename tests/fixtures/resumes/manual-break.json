@@ -1,0 +1,223 @@
+{
+ "title": "Manual break",
+ "templateId": "T1",
+ "accentPreset": 0,
+ "language": "es",
+ "dateFormat": "MonthYearLong",
+ "layout": {
+  "fontPreset": "M",
+  "sectionSpacing": 10,
+  "entrySpacing": 10,
+  "lineSpacing": 1,
+  "pageSize": "A4",
+  "margins": {
+   "top": 23,
+   "right": 23,
+   "bottom": 23,
+   "left": 23
+  },
+  "bodyFont": null
+ },
+ "header": {
+  "fullName": "Lucía Ñáñez-Šťastná | Інженерка",
+  "headline": "Go • PostgreSQL • Kubernetes • Azure",
+  "showPhoto": true,
+  "contacts": [
+   {
+    "id": "01934f6e-7a2b-7c3d-8e4f-000000000001",
+    "text": "lucia@example.invalid",
+    "url": null,
+    "kind": "email"
+   },
+   {
+    "id": "01934f6e-7a2b-7c3d-8e4f-000000000002",
+    "text": "+34 600 000 000 • València, España • Residencia permanente",
+    "url": null,
+    "kind": "other"
+   },
+   {
+    "id": "01934f6e-7a2b-7c3d-8e4f-000000000003",
+    "text": "example.invalid/in/lucia",
+    "url": "https://example.invalid/in/lucia",
+    "kind": "link"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "hidden": false,
+   "listColumns": null,
+   "placement": null,
+   "id": "01934f6e-7a2b-7c3d-8e4f-000000000020",
+   "type": "text",
+   "title": "Resumen",
+   "content": {
+    "body": [
+     {
+      "kind": "paragraph",
+      "inlines": [
+       {
+        "kind": "text",
+        "value": "Ingeniera de software con experiencia en servicios distribuidos, migración de monolitos y mejora continua; también colabora con equipos de diseño, datos y atención al cliente en proyectos de larga duración.",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "hidden": false,
+   "listColumns": null,
+   "placement": null,
+   "id": "01934f6e-7a2b-7c3d-8e4f-000000000024",
+   "type": "entries",
+   "title": "Experiencia",
+   "content": {
+    "labels": null,
+    "entries": [
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000021",
+      "title": "Primero",
+      "organization": "Example Payments",
+      "location": "València",
+      "start": {
+       "kind": "date",
+       "year": 2020,
+       "month": 1
+      },
+      "end": {
+       "kind": "present"
+      },
+      "dateText": "",
+      "description": [
+       {
+        "kind": "paragraph",
+        "inlines": [
+         {
+          "kind": "text",
+          "value": "Worked on a payments platform for small merchants, moving reporting into a separate service and reducing the nightly batch window from six hours to forty minutes without changing the published schedule.",
+          "bold": false,
+          "italic": false,
+          "underline": false
+         }
+        ]
+       }
+      ],
+      "pageBreakBefore": true
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000022",
+      "title": "Segundo",
+      "organization": "Example Payments",
+      "location": "València",
+      "start": {
+       "kind": "date",
+       "year": 2020,
+       "month": 1
+      },
+      "end": {
+       "kind": "present"
+      },
+      "dateText": "",
+      "description": [
+       {
+        "kind": "paragraph",
+        "inlines": [
+         {
+          "kind": "text",
+          "value": "Інженерка програмного забезпечення з досвідом розробки розподілених сервісів, міграції застарілих систем та налагодження процесів безперервної доставки для команд у різних часових поясах.",
+          "bold": false,
+          "italic": false,
+          "underline": false
+         }
+        ]
+       }
+      ],
+      "pageBreakBefore": false
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000023",
+      "title": "Tercero",
+      "organization": "Example Payments",
+      "location": "València",
+      "start": {
+       "kind": "date",
+       "year": 2020,
+       "month": 1
+      },
+      "end": {
+       "kind": "present"
+      },
+      "dateText": "",
+      "description": [
+       {
+        "kind": "paragraph",
+        "inlines": [
+         {
+          "kind": "text",
+          "value": "Worked on a payments platform for small merchants, moving reporting into a separate service and reducing the nightly batch window from six hours to forty minutes without changing the published schedule.",
+          "bold": false,
+          "italic": false,
+          "underline": false
+         }
+        ]
+       }
+      ],
+      "pageBreakBefore": true
+     }
+    ]
+   }
+  },
+  {
+   "hidden": false,
+   "listColumns": null,
+   "placement": null,
+   "id": "01934f6e-7a2b-7c3d-8e4f-000000000025",
+   "type": "list",
+   "title": "Skills",
+   "content": {
+    "items": [
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000026",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Go",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000027",
+      "text": [
+       {
+        "kind": "text",
+        "value": "SQL",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000028",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Kubernetes",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

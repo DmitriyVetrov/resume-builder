@@ -1,0 +1,470 @@
+{
+ "one-page/T1/A4-M": {
+  "model": "26cc7df4de903d07bc2b7c26ffeefdef20e8fabe4229d2e12de9d8cbbbaf6c4a",
+  "pdf": "a009f32230ec940c097c15c217a09850ea3c044e9088ea8d1a951f55c4845cab",
+  "txt": "d469a14da86a96b81f5b3655f1ac73148630ddbb2c655f8eb1c6d137843d62ba",
+  "pages": 1
+ },
+ "one-page/T1/Letter-L": {
+  "model": "261d53715a55010017b5236d28a76997360a41db9d989baa3a32b950de57965c",
+  "pdf": "f42de1e87109b45bf70b7e15e0aeff9a01de0fc8d420ab55aa248e94ede53df4",
+  "txt": "d469a14da86a96b81f5b3655f1ac73148630ddbb2c655f8eb1c6d137843d62ba",
+  "pages": 2
+ },
+ "one-page/T2/A4-M": {
+  "model": "fcaffc4a71c009f16a03a9e1d13e50ff4bd17002bf0f8bbf50b15227befd7706",
+  "pdf": "939f916b893e58e4ed03bafeaba3c56482546a3186443d09a198816bbfc460c9",
+  "txt": "d469a14da86a96b81f5b3655f1ac73148630ddbb2c655f8eb1c6d137843d62ba",
+  "pages": 1
+ },
+ "one-page/T2/Letter-L": {
+  "model": "8ca0489ab5cc85390c1bfdde1fb68048da1e11ae6bd246740ed8a6f1c47feff3",
+  "pdf": "a555ee5d39951d622eb4ffa9b5dc146db223d1bda9903fde501249f2aab65ccd",
+  "txt": "d469a14da86a96b81f5b3655f1ac73148630ddbb2c655f8eb1c6d137843d62ba",
+  "pages": 2
+ },
+ "one-page/T3/A4-M": {
+  "model": "40a3362296c665b818890c5ce0b6f8b05c5f740a9e78b6e98021cfcf3f96892f",
+  "pdf": "4f723aadd8bde1b4d1d5bc8648b93119307b1f13f568bef4578d43c063c2e967",
+  "txt": "d469a14da86a96b81f5b3655f1ac73148630ddbb2c655f8eb1c6d137843d62ba",
+  "pages": 1
+ },
+ "one-page/T3/Letter-L": {
+  "model": "838692511902d5b4378641a9ef6bf6f2f6b47e3c0c0d485efb864c7312a7db38",
+  "pdf": "5a0dde9ca9f0019e92ab2d561117d3f2f537031246e31b8b7ae1f06d478a4507",
+  "txt": "d469a14da86a96b81f5b3655f1ac73148630ddbb2c655f8eb1c6d137843d62ba",
+  "pages": 1
+ },
+ "two-pages/T1/A4-M": {
+  "model": "bf099423cf94dbda241e544bcc4b2c8a92abf5a8d84e21d8cf815cf7edccdc5d",
+  "pdf": "23174a8dff812b6ea7a9b2d3c01e83cb71cfa1ca4b7709edb6f4fa9018713d12",
+  "txt": "7626fb004cea697a5802372a06662d88698f7d369e98521fb5ef97e9a121f3e2",
+  "pages": 2
+ },
+ "two-pages/T1/Letter-L": {
+  "model": "cf9cbca29b999aca7884596433c568d8c0dc8aafa6ef079c6a6f0b381193df47",
+  "pdf": "0228748dd4d7a7bd6e9c9b35b8f3c0f6400ce08232df4f0ac71212283f914cd7",
+  "txt": "7626fb004cea697a5802372a06662d88698f7d369e98521fb5ef97e9a121f3e2",
+  "pages": 2
+ },
+ "two-pages/T2/A4-M": {
+  "model": "f0fd815614de5f6b727eeea984d2a2e8b643a86b00ec32c68e03d34fe0817df7",
+  "pdf": "2f0fe44b7ca66ecdbfac3c936e856028d2f49d49cb5eb0e52d7e1942f5dd6346",
+  "txt": "7626fb004cea697a5802372a06662d88698f7d369e98521fb5ef97e9a121f3e2",
+  "pages": 2
+ },
+ "two-pages/T2/Letter-L": {
+  "model": "157df586e2705c36eb262a19a85f83bcd21dce9537916dfc98bbe0b7ddeebc51",
+  "pdf": "40fd0559f81cdb634e627e2d6034fb4a1bd0197cc282b3fd723c4ca68ab2c529",
+  "txt": "7626fb004cea697a5802372a06662d88698f7d369e98521fb5ef97e9a121f3e2",
+  "pages": 2
+ },
+ "two-pages/T3/A4-M": {
+  "model": "681372011ee5dde68989e5e0a9c63d512f39540bbb1a077293a16ed147e2c7fd",
+  "pdf": "1c9da9652b37b2ebaad3d4edfa45610cb63bec50fd57e39fdfe68c61aae66af5",
+  "txt": "7626fb004cea697a5802372a06662d88698f7d369e98521fb5ef97e9a121f3e2",
+  "pages": 2
+ },
+ "two-pages/T3/Letter-L": {
+  "model": "f7973220ccfeb2c1398abe6d54514a19cf31f2745ad3fa523817d5feaa553571",
+  "pdf": "2845a1729394e4ad8395da5df3d65bea157f7c2c3c8c87879a3b5b7a16f6f6cf",
+  "txt": "7626fb004cea697a5802372a06662d88698f7d369e98521fb5ef97e9a121f3e2",
+  "pages": 2
+ },
+ "four-pages/T1/A4-M": {
+  "model": "b784a615a23d019a99a28f435002d8fe66c19e1dd88fa9790767bcfa9febdcc4",
+  "pdf": "2a96ed5f1019a40c33891f0bc998c647c35af00c52a2c837a7a0d7fc0c9ef988",
+  "txt": "ae0dd7a1f05b06d689d98d7a3526ff4a5311ca0fc8c1b960e203c962f95ff904",
+  "pages": 4
+ },
+ "four-pages/T1/Letter-L": {
+  "model": "bdeca426de6253d3d62a8424abd9a1a69ab4a0257b8efdfeea347117e1325e47",
+  "pdf": "c1aac576fe479c02258fa1c0e00479a26eb835b36178739f40b092cadf14ca2e",
+  "txt": "ae0dd7a1f05b06d689d98d7a3526ff4a5311ca0fc8c1b960e203c962f95ff904",
+  "pages": 5
+ },
+ "four-pages/T2/A4-M": {
+  "model": "0b41420f7532370be5ba2aec101cba84124c87eb6acfde5c99ba9811c7371eca",
+  "pdf": "de597b8c65376058c2b300a4909208e078fb37096ff6e4c99b3348d5ad51913a",
+  "txt": "ae0dd7a1f05b06d689d98d7a3526ff4a5311ca0fc8c1b960e203c962f95ff904",
+  "pages": 3
+ },
+ "four-pages/T2/Letter-L": {
+  "model": "60ab80a1877bb6cc5ee68f86e6b96404b5cb9735d21091dcc744f728bd847b6c",
+  "pdf": "67a7bf4bb14ca62061b0cde6cfcdbde4456390657f6b1f69395f51dd7fc8d890",
+  "txt": "ae0dd7a1f05b06d689d98d7a3526ff4a5311ca0fc8c1b960e203c962f95ff904",
+  "pages": 5
+ },
+ "four-pages/T3/A4-M": {
+  "model": "86dfe625d7204d2fd93e633ca2fc2f78aad0640c219e41909f07031615616d88",
+  "pdf": "94813d7c402226a6fb7ee058e5af241826e2340b1d64088bf70b56c5ef539b77",
+  "txt": "ae0dd7a1f05b06d689d98d7a3526ff4a5311ca0fc8c1b960e203c962f95ff904",
+  "pages": 5
+ },
+ "four-pages/T3/Letter-L": {
+  "model": "e80f201b4eac1a1d6286f97977ac4cf4cca49fa593dc8f3bbc38210035ceb5bc",
+  "pdf": "cb80dec69facd1d39f2fec406ecfa82e042e4c1fa58bbe8a9eb337817b0e7d22",
+  "txt": "ae0dd7a1f05b06d689d98d7a3526ff4a5311ca0fc8c1b960e203c962f95ff904",
+  "pages": 6
+ },
+ "minimal/T1/A4-M": {
+  "model": "422cf97e4e742781a1fa79dd792d93c31c4351dfe91a7bacddbfed8db055ffc3",
+  "pdf": "dc3235e1c1e25bd7c1ee27cfebbaa8aa52759e6b3df2c570a2a725ac421cee86",
+  "txt": "39bbbc711bac1e53a9b75ce7e875e7841b80b7da14d253bc3d16ede1223fcdd2",
+  "pages": 1
+ },
+ "minimal/T1/Letter-L": {
+  "model": "0257ae46135ade3a346adcc7aaac1bcfeb78d5b4b93131f667099ad8296734b1",
+  "pdf": "686e4296bf5231a530914323d48bb292e608dbc47e1b53cf698b172c7832ea9f",
+  "txt": "39bbbc711bac1e53a9b75ce7e875e7841b80b7da14d253bc3d16ede1223fcdd2",
+  "pages": 1
+ },
+ "minimal/T2/A4-M": {
+  "model": "101d6170b101f2f5ccfe476c3e82f533411aa75669312451903a637585326fff",
+  "pdf": "166a8eb02b4093320532ffc55bcbfeb5153e0d5fb3a53c240135e12bf2fc540c",
+  "txt": "39bbbc711bac1e53a9b75ce7e875e7841b80b7da14d253bc3d16ede1223fcdd2",
+  "pages": 1
+ },
+ "minimal/T2/Letter-L": {
+  "model": "7a87698241f9ed1cfc343ee29e6148dec81e1caccd86d1722eaa944361401a63",
+  "pdf": "8a6a8a1f8d91a3d9de144e14b6166a515eec3bf4b9117d7728ae1d751464b461",
+  "txt": "39bbbc711bac1e53a9b75ce7e875e7841b80b7da14d253bc3d16ede1223fcdd2",
+  "pages": 1
+ },
+ "minimal/T3/A4-M": {
+  "model": "43249d7f15177519dc8e3c9f0374f1fe791c8b41d26381c73d0763045472c321",
+  "pdf": "27d72858af3dd47b03062f18e98f3b6b7de73baa8116c256639652d583894dc4",
+  "txt": "39bbbc711bac1e53a9b75ce7e875e7841b80b7da14d253bc3d16ede1223fcdd2",
+  "pages": 1
+ },
+ "minimal/T3/Letter-L": {
+  "model": "56cc31681156b84cb87ce5ac7410420ec3bf9b4f57944ffb610d11defc6d02dc",
+  "pdf": "6c73061a8a86c891a31f42dee9cc216f1b2dc5709852ce34c73513010f8209ce",
+  "txt": "39bbbc711bac1e53a9b75ce7e875e7841b80b7da14d253bc3d16ede1223fcdd2",
+  "pages": 1
+ },
+ "title-at-bottom/T1/A4-M": {
+  "model": "afaef2040d595d0210fc4888cb07215dfe41cff8face4a77287ce967739e8401",
+  "pdf": "4cda63f06c660fdbacd83433399f95221cc4ecf937865314c9dab2aa3ccd2515",
+  "txt": "b8085e9f9f5bd758ac101bb4ed837c9770fe1ff0267321e381fa4c6f016e4e00",
+  "pages": 4
+ },
+ "title-at-bottom/T1/Letter-L": {
+  "model": "556b46eac84453682bf7be848bda8411e29205c2a80f173114828a10113703dc",
+  "pdf": "5961d59b5bdd0d4ebce7198f83783a75a770353de69cd322c0010167a7954ca6",
+  "txt": "b8085e9f9f5bd758ac101bb4ed837c9770fe1ff0267321e381fa4c6f016e4e00",
+  "pages": 6
+ },
+ "title-at-bottom/T2/A4-M": {
+  "model": "a8391ed26aaf1ac7f0ba4c0ab3563d267d34189bd0ed72638b0a7f2d82b20949",
+  "pdf": "949b6b4c3ebd563cd3a03ce5275fda85c83b15e7b61dfeb3761824d5b7824861",
+  "txt": "b8085e9f9f5bd758ac101bb4ed837c9770fe1ff0267321e381fa4c6f016e4e00",
+  "pages": 4
+ },
+ "title-at-bottom/T2/Letter-L": {
+  "model": "4b0c4bc2bf2eaecc9f002d40b3a0fcc3bf936e14f65a418a3edad06d4640efd5",
+  "pdf": "61c377de4cd69fadd6c5ee0c114f13f4ed48099cecf1ecab07d7ce9b58cb5e35",
+  "txt": "b8085e9f9f5bd758ac101bb4ed837c9770fe1ff0267321e381fa4c6f016e4e00",
+  "pages": 5
+ },
+ "title-at-bottom/T3/A4-M": {
+  "model": "1beef5d5a4fbc6347d3db760907d344ef690c5523c89759f2e5179577c56a499",
+  "pdf": "f2f8fa51909937cdad86f2a33902e5ebbf473815cd0f69d84b0a518fdbb21eac",
+  "txt": "b8085e9f9f5bd758ac101bb4ed837c9770fe1ff0267321e381fa4c6f016e4e00",
+  "pages": 5
+ },
+ "title-at-bottom/T3/Letter-L": {
+  "model": "e8b9326eeb4ad9ed7a5f2134faddba536b2fea1d2adc2ad02f06175baa24cc38",
+  "pdf": "352a405b5a0bfba6624bf673973fef35dd5fca9582ada7bec54fee05a3f9d6a0",
+  "txt": "b8085e9f9f5bd758ac101bb4ed837c9770fe1ff0267321e381fa4c6f016e4e00",
+  "pages": 6
+ },
+ "long-paragraph/T1/A4-M": {
+  "model": "140e66cd1585b74a6c465113f8ec35342a983d9bedc09513c8d5b2713ece7375",
+  "pdf": "06513a878aa383bbe7c912ef295177b511266a591db15b8e7a6d56489c65fbe8",
+  "txt": "0d5f0a9561b14c4afa326bb7147103e18d3d22c1499505fb5d7f2f9a1f7af0ed",
+  "pages": 5
+ },
+ "long-paragraph/T1/Letter-L": {
+  "model": "6169f30c2e79b24c9360034244613090ee7c7baaebde814026a7bb32b6287f53",
+  "pdf": "9c0a43d786b062e532ece7b903976f7f54ac201aa79836fd866dd98b0aacf102",
+  "txt": "0d5f0a9561b14c4afa326bb7147103e18d3d22c1499505fb5d7f2f9a1f7af0ed",
+  "pages": 7
+ },
+ "long-paragraph/T2/A4-M": {
+  "model": "64eb0f9661ecc26099159864222008f636c8c2b3f71ced16d32362962437ece2",
+  "pdf": "19c6c49e9f2f21f77d5973a5ce38b9f3a2966e67e3dc0dc95eaeaf02acc9fd16",
+  "txt": "0d5f0a9561b14c4afa326bb7147103e18d3d22c1499505fb5d7f2f9a1f7af0ed",
+  "pages": 4
+ },
+ "long-paragraph/T2/Letter-L": {
+  "model": "bd76b5bf69d72ccb8be2dff44c35a830d1b8111953c482114cae350d4b72443a",
+  "pdf": "6ed6c1e9e3013757afaed99bedce705c2c87b971f0d8427106cbf2210c951718",
+  "txt": "0d5f0a9561b14c4afa326bb7147103e18d3d22c1499505fb5d7f2f9a1f7af0ed",
+  "pages": 7
+ },
+ "long-paragraph/T3/A4-M": {
+  "model": "17fcb7c4089ed7d2089163225859d20a7d183342f9e020c1c4400bf3958e7204",
+  "pdf": "e4575c965b40def396f13337af1cce17a3dc41b62c091f9d8491cb382cc1784c",
+  "txt": "0d5f0a9561b14c4afa326bb7147103e18d3d22c1499505fb5d7f2f9a1f7af0ed",
+  "pages": 7
+ },
+ "long-paragraph/T3/Letter-L": {
+  "model": "c463d6e8e6ee0d3b2a09fa5986e8e8e29f2f610a0248199f165f11393c65df28",
+  "pdf": "82bb148fd5f6277481ab5d6efc648ce44cac3c3df3522d3dd8d2b745c546b078",
+  "txt": "0d5f0a9561b14c4afa326bb7147103e18d3d22c1499505fb5d7f2f9a1f7af0ed",
+  "pages": 10
+ },
+ "long-bullet/T1/A4-M": {
+  "model": "28e78be6c4e753bdbb047a74650ee5f55a35a84a791db55c86d632c2fe3c3a1b",
+  "pdf": "e10f27964072a434338bc4f340a22cf7008d3ea26178897088179282e82fa7b1",
+  "txt": "b09eb183bb860e731bd1ad28cfefa29f71be34ff791be21a769db7da2b53da0f",
+  "pages": 2
+ },
+ "long-bullet/T1/Letter-L": {
+  "model": "9622c4f6dff7846668e373a192bedad6f57d4272c11ea9d22255e631bcfedafd",
+  "pdf": "28c34ffa8ab4d72248553f2a9d3ac448c4cd9be912f9061e0261d79416aaed8b",
+  "txt": "b09eb183bb860e731bd1ad28cfefa29f71be34ff791be21a769db7da2b53da0f",
+  "pages": 3
+ },
+ "long-bullet/T2/A4-M": {
+  "model": "4c9240cba657867e2f32c9709ee4a96a57caff47991733e9489425f0e87481f9",
+  "pdf": "1ccea93989295ec18cef79469a9be088418488d714343e146360dd0cb4a2bc65",
+  "txt": "b09eb183bb860e731bd1ad28cfefa29f71be34ff791be21a769db7da2b53da0f",
+  "pages": 2
+ },
+ "long-bullet/T2/Letter-L": {
+  "model": "0f4910ae67d164298c89cef4661c8b3622927a6e7e7463a835c0a5828a9a91de",
+  "pdf": "719e87d0e66523d3f7f88b45b7be73eee5ccab4bc4c3c279ae104857275ff1d9",
+  "txt": "b09eb183bb860e731bd1ad28cfefa29f71be34ff791be21a769db7da2b53da0f",
+  "pages": 3
+ },
+ "long-bullet/T3/A4-M": {
+  "model": "9fed5bdec54f979abce5ef6bac441cb8623f3245383471f1f35a15b8a5c647d1",
+  "pdf": "b2dfc9c63421b31cd428b8362738cdffbbd25323f7be35b532545ac320f473de",
+  "txt": "b09eb183bb860e731bd1ad28cfefa29f71be34ff791be21a769db7da2b53da0f",
+  "pages": 5
+ },
+ "long-bullet/T3/Letter-L": {
+  "model": "d3a005ec879be21e45dbfce1e1ed096ff67dbf60673145d5923bb87d1953dfba",
+  "pdf": "6ff60a36872c7af783677a9c78ef385f36c4c92a758010fa30c3873b7784799a",
+  "txt": "b09eb183bb860e731bd1ad28cfefa29f71be34ff791be21a769db7da2b53da0f",
+  "pages": 6
+ },
+ "many-rows/T1/A4-M": {
+  "model": "e7f3c0eab248265ec1a7114794c541151ddb93dc97cc441f4413a61df5f15fd1",
+  "pdf": "3c603e29d4fe6cad4297ef408effde736982d6ae87025c0a9848eb154bc5b951",
+  "txt": "f11fdffdaa74c0e6587e0f5824248f63219c24601acadf44dc66e384cb8c3849",
+  "pages": 4
+ },
+ "many-rows/T1/Letter-L": {
+  "model": "66f523b7ed39a8552bd043a2791fd37d7f660d9e41ce1fe6904da75e88afe3fa",
+  "pdf": "d80962096243b94f58c539e4acdb000af6b7e007cc07f5d77915d36231bbce4a",
+  "txt": "f11fdffdaa74c0e6587e0f5824248f63219c24601acadf44dc66e384cb8c3849",
+  "pages": 5
+ },
+ "many-rows/T2/A4-M": {
+  "model": "6b851950e10d31d80510050cd8df51e8edf3a082cac6a3e18e0cef780c9d9c54",
+  "pdf": "b57b1fd69a7ef74b80625155057ab706784427d98fd8dbb36b1f04b1e6322b4f",
+  "txt": "f11fdffdaa74c0e6587e0f5824248f63219c24601acadf44dc66e384cb8c3849",
+  "pages": 3
+ },
+ "many-rows/T2/Letter-L": {
+  "model": "332b80bc68d8511751527f48d8c880fb3b88e56131c79d081c12d1145cc7ec32",
+  "pdf": "0fa6aa139ba071a8fbf68d5746e1bbeacab88513cd9cfd4f827405cbb8c99f40",
+  "txt": "f11fdffdaa74c0e6587e0f5824248f63219c24601acadf44dc66e384cb8c3849",
+  "pages": 4
+ },
+ "many-rows/T3/A4-M": {
+  "model": "673eda4751add3b1a8b44c359f707b01ba17cf22eacd454beba4453726bb2c72",
+  "pdf": "183c91446db097383deac6d1a02fa376e78369418621ed5b3f3d132060fa5360",
+  "txt": "f11fdffdaa74c0e6587e0f5824248f63219c24601acadf44dc66e384cb8c3849",
+  "pages": 8
+ },
+ "many-rows/T3/Letter-L": {
+  "model": "904e70c3dbe8a667b5a4d2c817a4b4eb127ec93816629bca9eb88071e26be464",
+  "pdf": "98401373d55963cfcebde95a4e51615597a5ccc90db420867e42ab4c4c363b2d",
+  "txt": "f11fdffdaa74c0e6587e0f5824248f63219c24601acadf44dc66e384cb8c3849",
+  "pages": 10
+ },
+ "manual-break/T1/A4-M": {
+  "model": "9aac313ac5b3afd804a840f227fd850205364794c3627fa426b55d44e7dc6736",
+  "pdf": "f08ead96b389dff5ca5f4fb289c6720938adf9e038b9127ff25e23f98168c4bb",
+  "txt": "9ecf8d2092f87616f717b932bef79a0e6a64fb3281940950ce63eee4c453ab35",
+  "pages": 3
+ },
+ "manual-break/T1/Letter-L": {
+  "model": "b6db171afe58f59838112658fb69baa60bb88b8b621cb5ba65a1e1ce65fc0c22",
+  "pdf": "4a00f33f13316ee9bae9ef94200ce399488001d1638d2b7b38de8d6d6f0cb35b",
+  "txt": "9ecf8d2092f87616f717b932bef79a0e6a64fb3281940950ce63eee4c453ab35",
+  "pages": 3
+ },
+ "manual-break/T2/A4-M": {
+  "model": "5cf0365c10df089686e8e005443c609c149a84996f8725ca097ea19460d48942",
+  "pdf": "40656867ddf9dc1869fb18ee766fd0c735dab260baad523f61ff968a57bf2899",
+  "txt": "9ecf8d2092f87616f717b932bef79a0e6a64fb3281940950ce63eee4c453ab35",
+  "pages": 3
+ },
+ "manual-break/T2/Letter-L": {
+  "model": "92b347959bf4afe9dee9059d6ba5342deef0099d71c394ffee912a7643b86536",
+  "pdf": "a58460e9fe9ecfa9033fdd642a4fb9cc9b27d83a5660e9743846371c49f84136",
+  "txt": "9ecf8d2092f87616f717b932bef79a0e6a64fb3281940950ce63eee4c453ab35",
+  "pages": 3
+ },
+ "manual-break/T3/A4-M": {
+  "model": "ae05e648aff8a05e9b2926a403b1189c7c232fe6b422cee4aceaae7e5b134774",
+  "pdf": "491c4cfcb3eb076a48f5286afa769ee8e3111a9996488766f793ab68e80f3c2f",
+  "txt": "9ecf8d2092f87616f717b932bef79a0e6a64fb3281940950ce63eee4c453ab35",
+  "pages": 3
+ },
+ "manual-break/T3/Letter-L": {
+  "model": "217f42ec5b3d0d8b3cee99f8810b76dc5bd129a7186e41d063c883532dbdc2bb",
+  "pdf": "db72ba46778a938b9fabde71f9ffb69deb1c201edc72310f14ebb14a5dba130d",
+  "txt": "9ecf8d2092f87616f717b932bef79a0e6a64fb3281940950ce63eee4c453ab35",
+  "pages": 3
+ },
+ "oversized/T1/A4-M": {
+  "model": "2e171f27250b10a457eb121f1162089614796bc309dd8264bb12ea0b4271464b",
+  "pdf": "212a0fa3516c5be8155512a5ae767bce36564fe986fa34634ce643778aea4379",
+  "txt": "6c12309fc43940495cd47f4a75273915840dda9a1c16f33a7e6bce403bc5a938",
+  "pages": 4
+ },
+ "oversized/T1/Letter-L": {
+  "model": "612fd6dd2c955c91d80f117afc6a57001e3e3527f36d2e5569a6627322b3e508",
+  "pdf": "72118731c1ee3d2a497981d6ca94dff2cf296ba8135e4e8d1bcff6e79269127c",
+  "txt": "6c12309fc43940495cd47f4a75273915840dda9a1c16f33a7e6bce403bc5a938",
+  "pages": 5
+ },
+ "oversized/T2/A4-M": {
+  "model": "4570f6487603c39c822e61714984d9153d1b07719b60102f8581cf723af95ece",
+  "pdf": "323be8d2d413db1618c136ab8dfc015b51c715f5c130047179ef13ccf3e0d543",
+  "txt": "6c12309fc43940495cd47f4a75273915840dda9a1c16f33a7e6bce403bc5a938",
+  "pages": 3
+ },
+ "oversized/T2/Letter-L": {
+  "model": "468f8c3aa1b54d27bffe77fab935d09a459f1dbe29907affa93857851ab7307f",
+  "pdf": "8bec1cd6edc31ab9368a56a380b602cb6c9cc11601302a4d37f20ea970bac7aa",
+  "txt": "6c12309fc43940495cd47f4a75273915840dda9a1c16f33a7e6bce403bc5a938",
+  "pages": 4
+ },
+ "oversized/T3/A4-M": {
+  "model": "a461999a7e4ac74ec3e4899e581aab883c5c4bb48dfa9431aaae9956be68953e",
+  "pdf": "af8440915d5393029c423f6f8ec83d73f3a40901210f2aacf1f09c24bff5f1fe",
+  "txt": "6c12309fc43940495cd47f4a75273915840dda9a1c16f33a7e6bce403bc5a938",
+  "pages": 5
+ },
+ "oversized/T3/Letter-L": {
+  "model": "42dbca102036b08f9a478cbd5babaf95e7c85bb9e0f9a561c01323beb7a604e6",
+  "pdf": "eaa90f62c9c994d66586075a2941fb1e07fa4966ad298a5df90d73d7c9d4d31e",
+  "txt": "6c12309fc43940495cd47f4a75273915840dda9a1c16f33a7e6bce403bc5a938",
+  "pages": 7
+ },
+ "rich-marks/T1/A4-M": {
+  "model": "cd749135dfcb6f202213dbf4c6b36a1ab302684b626d94dd2802b2c2ed0ae784",
+  "pdf": "4514657eb40266a8a90e763f4788aa326db2357e8ff5c6d86b30e2bd74feff3f",
+  "txt": "26f2c998cfe0f307cae43e4b2b88d7584d636f3ad8cb8c9a52d3f27307cdc767",
+  "pages": 1
+ },
+ "rich-marks/T1/Letter-L": {
+  "model": "722447b07004e71c0f2825c0d0bfa31aaceb5d5110958b1f89be511517502d88",
+  "pdf": "246505918bdef7e3bc67d76c348e196073e8c81606d115366a8301fd2a75e315",
+  "txt": "26f2c998cfe0f307cae43e4b2b88d7584d636f3ad8cb8c9a52d3f27307cdc767",
+  "pages": 1
+ },
+ "rich-marks/T2/A4-M": {
+  "model": "4191518108ba9b0d74ba99707a835456a3ffa15dfde06eb64058af40f8be16a3",
+  "pdf": "8b9999a6f27534e75d88671bc6547d3173c8f76912ad1ec6f29fa737d6dd08f7",
+  "txt": "26f2c998cfe0f307cae43e4b2b88d7584d636f3ad8cb8c9a52d3f27307cdc767",
+  "pages": 1
+ },
+ "rich-marks/T2/Letter-L": {
+  "model": "0116a82b2ffbb9ee6539d5c8235a785e37f8479e18f00ca8de46d8ef1fbc4714",
+  "pdf": "814a45f83d96ab519b7ee4dd9b1909f27db03e1ccc27d1d6a41b03168bf10895",
+  "txt": "26f2c998cfe0f307cae43e4b2b88d7584d636f3ad8cb8c9a52d3f27307cdc767",
+  "pages": 1
+ },
+ "rich-marks/T3/A4-M": {
+  "model": "c5c134640a390b0f6e14ca442ca6c8dfd0bb537c9d05e7d0cf7e46b7795b17b3",
+  "pdf": "89f5d96c1509de37c22a7f85260d2ffc32fe9461b5e8cfe6b95e418204c81217",
+  "txt": "26f2c998cfe0f307cae43e4b2b88d7584d636f3ad8cb8c9a52d3f27307cdc767",
+  "pages": 1
+ },
+ "rich-marks/T3/Letter-L": {
+  "model": "0df97463a9e5be465ccc4c06bbb258ae7a439901ccf916af382e8e4b1756bbbc",
+  "pdf": "31973976a799dbe94f5b3838aa84245767a8811ad28c130e206c64a66f306092",
+  "txt": "26f2c998cfe0f307cae43e4b2b88d7584d636f3ad8cb8c9a52d3f27307cdc767",
+  "pages": 1
+ },
+ "contacts-heavy/T1/A4-M": {
+  "model": "80b89361c2da46f5c75d8374ee811206ae1147f1ef05f8e79de3e36a224de079",
+  "pdf": "ff3c0831fec474f9460a07a8e903c00e8d8661e5df2204869c28402f20442174",
+  "txt": "ca044fae44808cc12b9e3971b70fbbc10ed358bacceaeae8f6745fef8b183024",
+  "pages": 1
+ },
+ "contacts-heavy/T1/Letter-L": {
+  "model": "60891dff517a0ab4ee9d973b787514dcce8fb19344a0c96378a259d163a3efb4",
+  "pdf": "23316062ad30568af53bfb6c26d84e91ae24564e9747387739aa7a657fce1a80",
+  "txt": "ca044fae44808cc12b9e3971b70fbbc10ed358bacceaeae8f6745fef8b183024",
+  "pages": 1
+ },
+ "contacts-heavy/T2/A4-M": {
+  "model": "ee5a5a131732dcdc36b3b62061b4e7a02855cc8d1f1c61d7b63759a6fc9b4778",
+  "pdf": "74f10eb6df027b2d3273fc2e9e38eeb3a865e9ad45025a7e85bd34767f40f7c0",
+  "txt": "ca044fae44808cc12b9e3971b70fbbc10ed358bacceaeae8f6745fef8b183024",
+  "pages": 1
+ },
+ "contacts-heavy/T2/Letter-L": {
+  "model": "1bf9acfa7182379c6f39af692a28093cd48866f0086b4ef0a423e7035c0af4da",
+  "pdf": "770443061673cfebbea840c7b30b510743cc641a4b3d7c1014b642ab911046e8",
+  "txt": "ca044fae44808cc12b9e3971b70fbbc10ed358bacceaeae8f6745fef8b183024",
+  "pages": 1
+ },
+ "contacts-heavy/T3/A4-M": {
+  "model": "694ff881046571faa1492642abcadb16bed9fcc91d548c36355898cc413613e3",
+  "pdf": "4d65691698542c46ff61e26842a715d5b90aebad70b9d823b43c78632d04f6d7",
+  "txt": "ca044fae44808cc12b9e3971b70fbbc10ed358bacceaeae8f6745fef8b183024",
+  "pages": 1
+ },
+ "contacts-heavy/T3/Letter-L": {
+  "model": "cbd88d454550bd98955b1e0acfc7ddcf36ac6417b1594ff4debd15155e872a72",
+  "pdf": "cb1fd08bfb162b71455cf9b09829a910b294ecd066d6c7d12ab29f5aaf14e35f",
+  "txt": "ca044fae44808cc12b9e3971b70fbbc10ed358bacceaeae8f6745fef8b183024",
+  "pages": 1
+ },
+ "reference-cv/T1/A4-M": {
+  "model": "44c38d1d063942673f2164795920e9f02f2cd11359a9ec81fa3c968094778d19",
+  "pdf": "951f4331c47af1bbecbb7ed540050c27aab544561fe780280b1aaa11d4271d92",
+  "txt": "7a075081b819034d2d056fe14dcb752e4c7292a5d224388ca8068d4d16bc4225",
+  "pages": 1
+ },
+ "reference-cv/T1/Letter-L": {
+  "model": "af5962723ddc84ad95e089ac23e2758ed06d4f4185cedafcef0cf0f95c83db15",
+  "pdf": "3dfc8d0c8f060cafadcd50c3879208e40694abeacd3e6e50e6ae27c1a2adb3bb",
+  "txt": "7a075081b819034d2d056fe14dcb752e4c7292a5d224388ca8068d4d16bc4225",
+  "pages": 1
+ },
+ "reference-cv/T2/A4-M": {
+  "model": "6c5786127c624919f0047d1106446160f9b7a531c27e879f2666c3a86e660748",
+  "pdf": "87b3218db8b7ba676f320972958643f2679946d6314e37341f57b5b77d388cb3",
+  "txt": "7a075081b819034d2d056fe14dcb752e4c7292a5d224388ca8068d4d16bc4225",
+  "pages": 1
+ },
+ "reference-cv/T2/Letter-L": {
+  "model": "366edb17d688e1fdac25a6e7f8309c49905d272c7e76ae2a6dc2650508a62c4a",
+  "pdf": "026d9a97fa0fa9c834a92016e6dfbdf0cede891ead38811b2d55b6a1e6874f2a",
+  "txt": "7a075081b819034d2d056fe14dcb752e4c7292a5d224388ca8068d4d16bc4225",
+  "pages": 1
+ },
+ "reference-cv/T3/A4-M": {
+  "model": "830bdf05a548ab5ae60630b34a820e4f9ed80bbccac3956089d9795a1faa8dc6",
+  "pdf": "f95fed7e3052dbc768e1f04f49c15bb389e12e190eac886ed052d884b32f2c30",
+  "txt": "7a075081b819034d2d056fe14dcb752e4c7292a5d224388ca8068d4d16bc4225",
+  "pages": 1
+ },
+ "reference-cv/T3/Letter-L": {
+  "model": "26595c989c534f770a03b66e9047eceef49b354efc3a2f45d28e0093754a5034",
+  "pdf": "c4e3cf46177d466b1dd7593388487945c12bac1ac764827c51167fe5c9ff5ce8",
+  "txt": "7a075081b819034d2d056fe14dcb752e4c7292a5d224388ca8068d4d16bc4225",
+  "pages": 1
+ }
+}

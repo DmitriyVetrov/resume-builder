@@ -1,0 +1,29 @@
+# Round 1: the restored database kept its deletion_ledger rows
+setup purged=01a1d206-16fa-7879-8f4b-05cb46561e17 kept=01a1d206-1773-7d95-8436-54521ae908c5
+backup taken
+purge 01a1d206-16fa-7879-8f4b-05cb46561e17 status=204; get after=404
+ledger rows after purge: 2
+database restored to the backup
+ledger rows after restore: 2
+check purged=200 kept=200 keptPhotoMaster=200
+--- reconcile 1
+      restore_reconciled ledger_loaded=0 accounts_erased=0 resumes_purged=1 photos_deleted=0 photo_references_cleared=0 trash_purged=0 snapshots_deleted=0 orphan_photos=0 orphan_owners=0
+check purged=404 kept=200 keptPhotoMaster=200
+--- reconcile 2
+      restore_reconciled ledger_loaded=0 accounts_erased=0 resumes_purged=0 photos_deleted=0 photo_references_cleared=0 trash_purged=0 snapshots_deleted=0 orphan_photos=0 orphan_owners=0
+ledger rows after reconcile: 2
+
+=== round 2: the restored database has no deletion_ledger (backup taken before the collection existed)
+setup purged=01a1d206-70e4-74fe-8fff-c6b710476b32 kept=01a1d206-715b-78ab-969a-b417ac9c2e45
+ledger rows at backup: 0
+backup taken
+purge 01a1d206-70e4-74fe-8fff-c6b710476b32 status=204; get after=404
+ledger rows after purge: 2
+database restored; ledger rows after restore: 0
+check purged=200 kept=200 keptPhotoMaster=200
+--- reconcile 1
+      restore_reconciled ledger_loaded=4 accounts_erased=0 resumes_purged=1 photos_deleted=0 photo_references_cleared=0 trash_purged=0 snapshots_deleted=0 orphan_photos=0 orphan_owners=0
+ledger rows after reconcile (written back from the blob copy): 4
+check purged=404 kept=200 keptPhotoMaster=200
+--- reconcile 2
+      restore_reconciled ledger_loaded=0 accounts_erased=0 resumes_purged=0 photos_deleted=0 photo_references_cleared=0 trash_purged=0 snapshots_deleted=0 orphan_photos=0 orphan_owners=0

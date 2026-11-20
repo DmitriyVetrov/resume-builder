@@ -1,0 +1,5 @@
+  ✓  1 [chromium] › real-stack/reliability-acceptance.spec.ts:90:1 › RS01 a response lost after the real server applied the write is replayed: Saved, no conflict, one version (ADR-037) (4.4s)
+  ✓  2 [chromium] › real-stack/reliability-acceptance.spec.ts:115:1 › RS02 a burst of 503 answers keeps the edit and saves it after recovery (NFR-10) (28.3s)
+  ✓  3 [chromium] › real-stack/reliability-acceptance.spec.ts:134:1 › RS03 the data archive against the real API: real photo master, PDF and TXT, accessible (FR-ACC-04) (27.4s)
+  ✓  4 [chromium] › real-stack/reliability-acceptance.spec.ts:165:1 › RS04 the archive in the dark scheme at 390 px against the real API: keyboard only, axe clean, no overflow (AC-P13-18) (2.3s)
+  4 passed (1.1m)

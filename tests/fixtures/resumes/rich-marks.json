@@ -1,0 +1,241 @@
+{
+ "title": "Rich marks",
+ "templateId": "T1",
+ "accentPreset": 0,
+ "language": "es",
+ "dateFormat": "MonthYearLong",
+ "layout": {
+  "fontPreset": "M",
+  "sectionSpacing": 10,
+  "entrySpacing": 10,
+  "lineSpacing": 1,
+  "pageSize": "A4",
+  "margins": {
+   "top": 23,
+   "right": 23,
+   "bottom": 23,
+   "left": 23
+  },
+  "bodyFont": null
+ },
+ "header": {
+  "fullName": "Lucía Ñáñez-Šťastná | Інженерка",
+  "headline": "Go • PostgreSQL • Kubernetes • Azure",
+  "showPhoto": true,
+  "contacts": [
+   {
+    "id": "01934f6e-7a2b-7c3d-8e4f-000000000001",
+    "text": "lucia@example.invalid",
+    "url": null,
+    "kind": "email"
+   },
+   {
+    "id": "01934f6e-7a2b-7c3d-8e4f-000000000002",
+    "text": "+34 600 000 000 • València, España • Residencia permanente",
+    "url": null,
+    "kind": "other"
+   },
+   {
+    "id": "01934f6e-7a2b-7c3d-8e4f-000000000003",
+    "text": "example.invalid/in/lucia",
+    "url": "https://example.invalid/in/lucia",
+    "kind": "link"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "hidden": false,
+   "listColumns": null,
+   "placement": null,
+   "id": "01934f6e-7a2b-7c3d-8e4f-000000000020",
+   "type": "text",
+   "title": "Marcas",
+   "content": {
+    "body": [
+     {
+      "kind": "paragraph",
+      "inlines": [
+       {
+        "kind": "text",
+        "value": "negrita ",
+        "bold": true,
+        "italic": false,
+        "underline": false
+       },
+       {
+        "kind": "text",
+        "value": "cursiva ",
+        "bold": false,
+        "italic": true,
+        "underline": false
+       },
+       {
+        "kind": "text",
+        "value": "ambas ",
+        "bold": true,
+        "italic": true,
+        "underline": false
+       },
+       {
+        "kind": "text",
+        "value": "subrayado ",
+        "bold": false,
+        "italic": false,
+        "underline": true
+       },
+       {
+        "kind": "link",
+        "url": "https://example.invalid/a",
+        "children": [
+         {
+          "kind": "text",
+          "value": "enlace",
+          "bold": false,
+          "italic": false,
+          "underline": false
+         }
+        ]
+       },
+       {
+        "kind": "text",
+        "value": " fin.",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "kind": "paragraph",
+      "inlines": [
+       {
+        "kind": "text",
+        "value": "Primera línea",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       },
+       {
+        "kind": "lineBreak"
+       },
+       {
+        "kind": "text",
+        "value": "Друга лінія",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       },
+       {
+        "kind": "lineBreak"
+       },
+       {
+        "kind": "text",
+        "value": "Third line",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "kind": "bulletList",
+      "items": [
+       [
+        {
+         "kind": "text",
+         "value": "Bold start",
+         "bold": true,
+         "italic": false,
+         "underline": false
+        },
+        {
+         "kind": "text",
+         "value": " then plain",
+         "bold": false,
+         "italic": false,
+         "underline": false
+        }
+       ],
+       [
+        {
+         "kind": "link",
+         "url": "mailto:a@example.invalid",
+         "children": [
+          {
+           "kind": "text",
+           "value": "correo",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          }
+         ]
+        }
+       ]
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "hidden": false,
+   "listColumns": null,
+   "placement": null,
+   "id": "01934f6e-7a2b-7c3d-8e4f-000000000021",
+   "type": "list",
+   "title": "Skills",
+   "content": {
+    "items": [
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000022",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Go",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000023",
+      "text": [
+       {
+        "kind": "text",
+        "value": "PostgreSQL",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000024",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Terraform",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000025",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Azure DevOps",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

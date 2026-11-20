@@ -1,0 +1,121 @@
+<!-- Feature Functionality Support -
+Photo shape support - No
+Duration tag - No
+PPDT Section - Yes
+SGTR section - Yes
+PICT support - No
+Monogram support - No
+-->
+Alex Testerson
+
+Senior Software Engineer (Test Persona)
+
+Contact
+
+Email:
+alex.testerson@example.com
+
+Phone:
+611 22 33 44
+
+Address:
+Valencia, Valencia, 46001
+
+LinkedIn:
+linkedin.com/in/alex-testerson
+
+Twitter:
+@alextest
+
+Website:
+https://alex-test.dev
+
+Date of Birth:
+05-15-1995
+
+Driving License:
+B
+
+Nationality:
+Testland
+
+Experience
+
+Lead Backend Engineer
+Acme Test Corp, Valencia, Valencia / Jan 2022 - Present
+
+Led a team of 6 engineers on a payments platform (plain paragraph, no bullet).
+
+Bold part: cut p95 latency of the checkout API from 900 ms to 180 ms.
+Italic part: migrated 14 services from a monolith to .NET 8 microservices.
+Underlined part: introduced CI/CD with GitHub Actions; deploys went from weekly to daily.
+A very long bullet to test wrapping: lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+Constructed RESTful endpoints to provide a secure and reliable connection between client and server applications.
+
+Backend Developer
+Globex Test Ltd, Madrid, Madrid / Mar 2019 - Dec 2021
+
+Built REST APIs in C# / ASP.NET Core for 40k daily users.
+Wrote integration tests with xUnit and Testcontainers.
+On-call rotation: resolved 120+ production incidents.  
+
+Junior Developer
+Initech Test SA, Kyiv, Kyiv / Sep 2016 - Feb 2019
+
+Maintained a legacy WinForms ERP module.
+Automated monthly reports with SQL Server stored procedures.  
+
+Education
+
+Test State University
+Kharkiv, Ukraine
+Jun 2016
+
+Master of Science (M.S.)
+Computer Science
+
+[Award] Recipient
+Thesis: distributed caching for high-load web APIs (grade: excellent).
+
+Tech Stack
+
+C# / .NET 8
+ASP.NET Core
+PostgreSQL
+SQL Server
+Docker & Kubernetes
+Azure
+GitHub Actions
+RabbitMQ
+System design
+
+Certifications
+
+AWS Certified Developer – Associate, Amazon Web Services, 2023
+Microsoft Certified: Azure Fundamentals (AZ-900), Microsoft, 2021
+Certified Kubernetes Application Developer (CKAD), CNCF, 2024
+
+References
+
+Jane Referee, Engineering Manager, Acme Test Corp
+34600000000 -  jane.referee@example.com - Former manager
+
+Languages
+
+English, Fluent 
+Spanish, Advanced 
+Ukrainian, Native 
+
+Awards
+
+Employee of the Year 2023, Acme Test Corp
+Hackathon winner, Valencia Tech Week 2022
+
+Open Source Projects
+
+TestQueue — a tiny .NET message broker, 300 GitHub stars.
+Contributor to a popular ORM library (12 merged PRs).
+
+Professional Summary
+
+Backend engineer with 9 years of experience in C# / .NET, distributed systems and cloud infrastructure. Led teams of up to 6 engineers, cut API latency by 80% and moved a monolith to microservices. This is a TEST persona created to document the builder; all data is fictitious.

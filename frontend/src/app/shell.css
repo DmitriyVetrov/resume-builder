@@ -1,0 +1,151 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+/* Theme tokens: written by tweakcn through `npx shadcn@latest add <theme url>`; do not edit by hand. */
+:root { --background: oklch(0.9900 0.0017 145.5623); --foreground: oklch(0.2005 0.0102 125.0872); --card: oklch(1.0000 0 0); --card-foreground: oklch(0.2005 0.0102 125.0872); --popover: oklch(1.0000 0 0); --popover-foreground: oklch(0.2005 0.0102 125.0872); --primary: oklch(0.7491 0.1481 126.1682); --primary-foreground: oklch(0.1613 0.0088 4.6340); --secondary: oklch(0.9495 0.0057 128.5275); --secondary-foreground: oklch(0.3006 0.0205 127.5074); --muted: oklch(0.9596 0.0041 121.5615); --muted-foreground: oklch(0.4808 0.0198 125.6230); --accent: oklch(0.9301 0.0368 127.4021); --accent-foreground: oklch(0.2988 0.0770 126.9468); --destructive: oklch(0.6207 0.2203 24.8903); --border: oklch(0.9007 0.0071 124.4573); --input: oklch(0.9192 0.0058 128.5303); --ring: oklch(0.7491 0.1481 126.1682); --chart-1: oklch(0.7491 0.1481 126.1682); --chart-2: oklch(0.6504 0.1342 151.3518); --chart-3: oklch(0.5499 0.1101 101.7217); --chart-4: oklch(0.8494 0.1036 176.0578); --chart-5: oklch(0.4490 0.0890 75.8302); --radius: 0.5rem; --sidebar: oklch(0.9596 0.0041 121.5615); --sidebar-foreground: oklch(0.2005 0.0102 125.0872); --sidebar-primary: oklch(0.7491 0.1481 126.1682); --sidebar-primary-foreground: oklch(0.1613 0.0088 4.6340); --sidebar-accent: oklch(0.9301 0.0368 127.4021); --sidebar-accent-foreground: oklch(0.2988 0.0770 126.9468); --sidebar-border: oklch(0.9007 0.0071 124.4573); --sidebar-ring: oklch(0.7491 0.1481 126.1682); --destructive-foreground: oklch(1.0000 0 0); --font-sans: "Inter Variable", Inter, sans-serif; --font-serif: Georgia, serif; --font-mono: "JetBrains Mono Variable", "JetBrains Mono", monospace; --shadow-color: #52574c; --shadow-opacity: 0.08; --shadow-blur: 12px; --shadow-spread: 0px; --shadow-offset-x: 0px; --shadow-offset-y: 2px; --letter-spacing: 0em; --spacing: 0.25rem; --shadow-2xs: 0px 2px 12px 0px hsl(87.2727 6.7485% 31.9608% / 0.04); --shadow-xs: 0px 2px 12px 0px hsl(87.2727 6.7485% 31.9608% / 0.04); --shadow-sm: 0px 2px 12px 0px hsl(87.2727 6.7485% 31.9608% / 0.08), 0px 1px 2px -1px hsl(87.2727 6.7485% 31.9608% / 0.08); --shadow: 0px 2px 12px 0px hsl(87.2727 6.7485% 31.9608% / 0.08), 0px 1px 2px -1px hsl(87.2727 6.7485% 31.9608% / 0.08); --shadow-md: 0px 2px 12px 0px hsl(87.2727 6.7485% 31.9608% / 0.08), 0px 2px 4px -1px hsl(87.2727 6.7485% 31.9608% / 0.08); --shadow-lg: 0px 2px 12px 0px hsl(87.2727 6.7485% 31.9608% / 0.08), 0px 4px 6px -1px hsl(87.2727 6.7485% 31.9608% / 0.08); --shadow-xl: 0px 2px 12px 0px hsl(87.2727 6.7485% 31.9608% / 0.08), 0px 8px 10px -1px hsl(87.2727 6.7485% 31.9608% / 0.08); --shadow-2xl: 0px 2px 12px 0px hsl(87.2727 6.7485% 31.9608% / 0.20); --tracking-normal: 0em; }
+
+@theme inline { --font-heading: var(--font-sans); --font-sans: "Inter Variable", Inter, sans-serif; --color-sidebar-ring: var(--sidebar-ring); --color-sidebar-border: var(--sidebar-border); --color-sidebar-accent-foreground: var(--sidebar-accent-foreground); --color-sidebar-accent: var(--sidebar-accent); --color-sidebar-primary-foreground: var(--sidebar-primary-foreground); --color-sidebar-primary: var(--sidebar-primary); --color-sidebar-foreground: var(--sidebar-foreground); --color-sidebar: var(--sidebar); --color-chart-5: var(--chart-5); --color-chart-4: var(--chart-4); --color-chart-3: var(--chart-3); --color-chart-2: var(--chart-2); --color-chart-1: var(--chart-1); --color-ring: var(--ring); --color-input: var(--input); --color-border: var(--border); --color-destructive: var(--destructive); --color-accent-foreground: var(--accent-foreground); --color-accent: var(--accent); --color-muted-foreground: var(--muted-foreground); --color-muted: var(--muted); --color-secondary-foreground: var(--secondary-foreground); --color-secondary: var(--secondary); --color-primary-foreground: var(--primary-foreground); --color-primary: var(--primary); --color-popover-foreground: var(--popover-foreground); --color-popover: var(--popover); --color-card-foreground: var(--card-foreground); --color-card: var(--card); --color-foreground: var(--foreground); --color-background: var(--background); --radius-sm: calc(var(--radius) * 0.6); --radius-md: calc(var(--radius) * 0.8); --radius-lg: var(--radius); --radius-xl: calc(var(--radius) * 1.4); --radius-2xl: calc(var(--radius) * 1.8); --radius-3xl: calc(var(--radius) * 2.2); --radius-4xl: calc(var(--radius) * 2.6); --font-mono: "JetBrains Mono Variable", "JetBrains Mono", monospace; --font-serif: Georgia, serif; --radius: 0.5rem; --tracking-tighter: calc(var(--tracking-normal) - 0.05em); --tracking-tight: calc(var(--tracking-normal) - 0.025em); --tracking-wide: calc(var(--tracking-normal) + 0.025em); --tracking-wider: calc(var(--tracking-normal) + 0.05em); --tracking-widest: calc(var(--tracking-normal) + 0.1em); --tracking-normal: var(--tracking-normal); --shadow-2xl: var(--shadow-2xl); --shadow-xl: var(--shadow-xl); --shadow-lg: var(--shadow-lg); --shadow-md: var(--shadow-md); --shadow: var(--shadow); --shadow-sm: var(--shadow-sm); --shadow-xs: var(--shadow-xs); --shadow-2xs: var(--shadow-2xs); --spacing: var(--spacing); --letter-spacing: var(--letter-spacing); --shadow-offset-y: var(--shadow-offset-y); --shadow-offset-x: var(--shadow-offset-x); --shadow-spread: var(--shadow-spread); --shadow-blur: var(--shadow-blur); --shadow-opacity: var(--shadow-opacity); --color-shadow-color: var(--shadow-color); --color-destructive-foreground: var(--destructive-foreground); }
+
+.dark { --background: oklch(0.1613 0.0064 122.1343); --foreground: oklch(0.9505 0.0041 121.5623); --card: oklch(0.2097 0.0083 128.9096); --card-foreground: oklch(0.9505 0.0041 121.5623); --popover: oklch(0.2399 0.0080 128.8392); --popover-foreground: oklch(0.9505 0.0041 121.5623); --primary: oklch(0.8198 0.1485 126.0486); --primary-foreground: oklch(0.1613 0.0088 4.6340); --secondary: oklch(0.2494 0.0075 118.3601); --secondary-foreground: oklch(0.8994 0.0099 125.6912); --muted: oklch(0.2314 0.0081 128.8569); --muted-foreground: oklch(0.6808 0.0199 127.2702); --accent: oklch(0.2814 0.0697 126.7472); --accent-foreground: oklch(0.8499 0.0816 126.3319); --destructive: oklch(0.6789 0.2096 21.9475); --border: oklch(0.3001 0.0114 128.8907); --input: oklch(0.3001 0.0114 128.8907); --ring: oklch(0.8198 0.1485 126.0486); --chart-1: oklch(0.8198 0.1485 126.0486); --chart-2: oklch(0.8505 0.1342 151.3814); --chart-3: oklch(0.8797 0.1186 101.1045); --chart-4: oklch(0.7201 0.1045 175.9289); --chart-5: oklch(0.8997 0.0819 75.4364); --sidebar: oklch(0.1889 0.0061 122.0192); --sidebar-foreground: oklch(0.9505 0.0041 121.5623); --sidebar-primary: oklch(0.8198 0.1485 126.0486); --sidebar-primary-foreground: oklch(0.1613 0.0088 4.6340); --sidebar-accent: oklch(0.2814 0.0697 126.7472); --sidebar-accent-foreground: oklch(0.8499 0.0816 126.3319); --sidebar-border: oklch(0.3001 0.0114 128.8907); --sidebar-ring: oklch(0.8198 0.1485 126.0486); --destructive-foreground: oklch(1.0000 0 0); --radius: 0.5rem; --font-sans: "Inter Variable", Inter, sans-serif; --font-serif: Georgia, serif; --font-mono: "JetBrains Mono Variable", "JetBrains Mono", monospace; --shadow-color: #000000; --shadow-opacity: 0.35; --shadow-blur: 16px; --shadow-spread: 0px; --shadow-offset-x: 0px; --shadow-offset-y: 4px; --letter-spacing: 0em; --spacing: 0.25rem; --shadow-2xs: 0px 4px 16px 0px hsl(0 0% 0% / 0.17); --shadow-xs: 0px 4px 16px 0px hsl(0 0% 0% / 0.17); --shadow-sm: 0px 4px 16px 0px hsl(0 0% 0% / 0.35), 0px 1px 2px -1px hsl(0 0% 0% / 0.35); --shadow: 0px 4px 16px 0px hsl(0 0% 0% / 0.35), 0px 1px 2px -1px hsl(0 0% 0% / 0.35); --shadow-md: 0px 4px 16px 0px hsl(0 0% 0% / 0.35), 0px 2px 4px -1px hsl(0 0% 0% / 0.35); --shadow-lg: 0px 4px 16px 0px hsl(0 0% 0% / 0.35), 0px 4px 6px -1px hsl(0 0% 0% / 0.35); --shadow-xl: 0px 4px 16px 0px hsl(0 0% 0% / 0.35), 0px 8px 10px -1px hsl(0 0% 0% / 0.35); --shadow-2xl: 0px 4px 16px 0px hsl(0 0% 0% / 0.88); }
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50; }
+  body {
+    @apply bg-background text-foreground;
+    letter-spacing: var(--tracking-normal); }
+  html {
+    @apply font-sans; } }
+
+/* Application styles: theme tokens only below this line (ADR-053). */
+
+/* The control look of the tweakcn preview (DD-UI-17): it draws `border-input` in `--border` and uses
+   the new-york radius scale (6 px controls, 4 px menu items, 12 px cards). */
+@theme inline { --color-input: var(--border); --radius-sm: calc(var(--radius) - 4px); --radius-md: calc(var(--radius) - 2px); --radius-xl: calc(var(--radius) + 4px); }
+
+/* Names the feature CSS uses, as aliases of theme tokens (ADR-053 §1). Colored text and marks use
+   --accent-foreground: --primary is a fill and fails 4.5:1 as text (DD-UI-05). */
+@layer base {
+  :root {
+    --color-ink: var(--foreground); --color-surface: var(--background); --color-panel: var(--card);
+    --color-line: var(--border); --color-field: var(--muted); --color-muted-text: var(--muted-foreground);
+    --color-brand: var(--accent-foreground); --color-brand-soft: var(--accent); --color-warm: var(--secondary);
+    --color-danger: color-mix(in oklab, var(--destructive) 75%, var(--foreground)); /* text: ≥ 5:1 in both schemes */ --color-danger-soft: color-mix(in oklab, var(--destructive) 10%, var(--background));
+    --color-focus: color-mix(in oklab, var(--ring) 50%, transparent); /* the theme ring (DD-UI-15) */
+    /* The modal backdrop (shared/ui/dialog.tsx, a site-wide change to the shadcn overlay, review R1). */
+    --color-scrim: color-mix(in oklab, var(--shadow-color) 30%, transparent);
+    line-height: 1.5;
+  }
+  a { color: var(--color-brand); }
+  button { cursor: pointer; }
+  button:disabled { cursor: not-allowed; opacity: .65; }
+  h1, h2, h3 { font-weight: 650; }
+}
+
+/* The focus indicator is the theme ring (DD-UI-15, which supersedes DD-UI-06): shadcn primitives
+   draw their own `ring-3 ring-ring/50` and remove this outline with `outline-none`; every other
+   focusable element gets the same 3 px ring as an outline. */
+@layer base {
+  :focus-visible { outline: 3px solid var(--color-focus); outline-offset: 0; }
+}
+
+@layer components {
+.skip-link { position:absolute; top:-5rem; left:1rem; padding:.7rem; background:var(--background); z-index:60; }
+.skip-link:focus { top:1rem; }
+header { display:flex; gap:2rem; align-items:center; padding:.5rem max(1rem, calc((100vw - 72rem)/2)); min-height:65px; background:var(--card); border-bottom:1px solid var(--color-line); }
+.brand { font-weight:700; font-size:1.25rem; text-decoration:none; }
+main { max-width:72rem; margin:auto; padding:1.5rem 1rem; }
+@media (max-width:1023px) { header { flex-wrap:wrap; gap:.5rem 1rem; } main { padding:1rem; } }
+.export-reason a { text-decoration:underline; }
+.auth-main { max-width:none; padding:32px 16px; }
+.app-frame { max-width:1120px; margin:auto; display:grid; grid-template-columns:44% 56%; min-height:650px; border-radius:20px; overflow:hidden; box-shadow:var(--shadow-lg); border:1px solid var(--color-line); }
+.auth-story { background:var(--color-warm); color:var(--secondary-foreground); padding:48px; position:relative; overflow:hidden; }
+.auth-story p { font-weight:700; }
+.auth-story h2 { font-size:clamp(2rem,3vw,2.7rem); line-height:1.16; max-width:330px; position:relative; z-index:1; }
+.story-shape { position:absolute; width:270px; height:270px; border-radius:50%; background:var(--primary); bottom:-45px; right:-45px; box-shadow:-120px -70px 0 var(--accent); }
+.auth-content { width:100%; max-width:480px; }
+.auth-content h1,.account-main h1 { font-size:clamp(2rem,3vw,2.5rem); line-height:1.2; margin:0 0 12px; }
+.eyebrow { text-transform:uppercase; letter-spacing:.12em; color:var(--color-brand); font-size:14px; font-weight:700; }
+.auth-intro,.form-footer,.help { color:var(--color-muted-text); }
+.field { margin:20px 0; }
+.field > label { display:block; font-weight:500; font-size:.875rem; line-height:1; margin-bottom:8px; }
+.field-error { color:var(--color-danger); margin:8px 0 0; font-size:14px; }
+.auth-content form > [data-slot=button] { width:100%; margin-top:12px; }
+/* A rejected submit moves focus to this message when no single field is at fault; :focus-visible
+   does not fire for programmatic focus on a non-interactive element, so match :focus directly. */
+.notice.error:focus { outline:3px solid var(--color-focus); outline-offset:3px; }
+.account-main { max-width:1120px; padding:32px 16px; }
+.settings-layout { display:grid; grid-template-columns:220px minmax(0,720px); gap:24px; margin-top:32px; }
+.settings-nav { display:flex; flex-direction:column; gap:8px; align-self:start; }
+.settings-nav ul { list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:8px; }
+.settings-nav a { display:block; padding:10px 12px; border-radius:8px; text-decoration:none; }
+.settings-nav a:hover,.settings-nav a:focus { background:var(--color-brand-soft); }
+.settings-nav a[aria-current=location] { background:var(--color-brand-soft); font-weight:700; box-shadow:inset 3px 0 var(--color-brand); }
+.settings-content { display:grid; gap:24px; min-width:0; }
+.settings-content h2 { font-size:20px; margin-top:0; }
+.wrap-text { overflow-wrap:anywhere; }
+.danger-zone { align-self:stretch; border-top:1px solid var(--color-line); margin-top:20px; padding-top:24px; }
+.dialog-actions { display:flex; justify-content:flex-end; flex-wrap:wrap; gap:12px; margin-top:24px; }
+[role=dialog] p { margin:0 0 12px; }
+[role=dialog] .notice { margin:16px 0 0; }
+[role=dialog] .notice a { text-decoration:underline; text-underline-offset:2px; }
+.form-footer { margin-top:24px; }
+.form-footer a,.settings-content p a,.account-main .surface a { text-decoration:underline; text-underline-offset:2px; }
+header nav { display:flex; flex-wrap:wrap; gap:16px; }
+@media(max-width:1023px) { .app-frame { display:block; min-height:0; } .auth-story { display:none; } .settings-layout { display:block; } .settings-nav, .settings-nav ul { flex-direction:row; flex-wrap:wrap; } .settings-nav { margin-bottom:24px; } }
+@media(max-width:480px) { .auth-main,.account-main { padding:16px; } .app-frame { border-radius:16px; } .dialog-actions [data-slot=button] { flex:1; } }
+
+/* P07 resume library and trash */
+.library-main { max-width:1120px; padding:32px 16px; }
+.library-head { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:16px; }
+.library-head h1 { font-size:clamp(2rem,3vw,2.5rem); line-height:1.2; margin:0; }
+.view-tabs { display:flex; gap:24px; margin-top:16px; border-bottom:1px solid var(--color-line); }
+.view-tabs a { display:inline-flex; align-items:center; min-height:44px; padding:0 4px; text-decoration:none; }
+.view-tabs a[aria-current=page] { font-weight:700; box-shadow:inset 0 -3px 0 var(--color-brand); }
+.library-status { margin:16px 0 0; }
+.library-status:empty { margin:0; }
+.library-status:focus { outline:3px solid var(--color-focus); outline-offset:3px; }
+.library-status a { text-decoration:underline; text-underline-offset:2px; }
+.library-failure { display:flex; flex-wrap:wrap; align-items:center; gap:12px; margin-top:16px; }
+.library-main > .notice { margin:16px 0 0; }
+.card-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(min(100%,420px),1fr)); gap:24px; margin-top:24px; }
+.card-grid:empty { margin:0; }
+.resume-card { min-width:0; padding:24px; background:var(--color-panel); color:var(--card-foreground); border:1px solid var(--color-line); border-radius:16px; transition:box-shadow .15s ease-out; }
+.resume-card:hover { box-shadow:var(--shadow-lg); }
+.resume-card:focus { outline:3px solid var(--color-focus); outline-offset:3px; }
+.card-title { display:flex; align-items:flex-start; gap:8px; min-width:0; }
+.card-title > h2 { min-width:0; } .card-title-edit { all:unset; cursor:text; border-radius:4px; overflow-wrap:anywhere; } .card-title-edit:hover { text-decoration:underline dotted; } .card-title-edit:focus-visible { outline:2px solid var(--ring); outline-offset:2px; } .card-rename-form { flex:1; min-width:0; }
+.resume-card h2 { font-size:20px; line-height:1.3; margin:0; }
+.resume-card h2.untitled { color:var(--color-muted-text); font-style:italic; font-weight:500; }
+.card-meta { margin:4px 0 0; color:var(--color-muted-text); }
+.days-left { font-weight:650; }
+.card-field { display:flex; gap:16px; margin-top:16px; padding:16px; background:var(--color-field); border-radius:12px; }
+.page-thumb { flex:none; display:flex; flex-direction:column; gap:8px; width:112px; height:158px; padding:14px 12px; background:var(--color-sheet); border:1px solid var(--color-line); border-radius:2px; color:var(--color-sheet-muted); }
+.page-thumb span { display:block; height:6px; border-radius:3px; background:var(--color-sheet-line); }
+.page-thumb span:first-child { width:60%; }
+.page-thumb.is-painted { padding:0; gap:0; overflow:hidden; }
+.page-thumb small { margin-top:auto; font-size:12px; }
+.card-actions { display:flex; flex-wrap:wrap; align-content:flex-start; gap:8px; min-width:0; }
+.empty-state { margin-top:24px; padding:32px 24px; text-align:center; background:var(--color-panel); border:1px solid var(--color-line); border-radius:16px; }
+.empty-state h2 { font-size:20px; margin:0 0 16px; }
+.empty-state h2:last-child { margin-bottom:0; }
+.load-more { display:flex; justify-content:center; margin-top:24px; }
+.resume-choices { margin:16px 0 0; padding:0; border:0; max-height:40dvh; overflow:auto; }
+.resume-choices legend { font-weight:650; padding:0; margin-bottom:8px; }
+.resume-choices label { display:flex; align-items:flex-start; gap:12px; min-height:44px; padding:10px 8px; border-top:1px solid var(--color-line); cursor:pointer; }
+.resume-choices input { margin-top:5px; flex:none; width:18px; height:18px; accent-color:var(--color-brand); }
+.resume-choices small { display:block; color:var(--color-muted-text); }
+@media(max-width:480px) { .library-main { padding:16px; } .resume-card { padding:16px; } .card-field { padding:12px; gap:12px; } }
+}
+
+/* Document colors: the resume page is paper in both schemes (ADR-053 §7). */
+:root {
+  --color-sheet: #fff; /* document color */
+  --color-sheet-line: #cdcdcd; /* document color */
+  --color-sheet-muted: #526577; /* document color */
+}
+
+@media(prefers-reduced-motion:reduce) { *,*::before,*::after { animation-duration:0s !important; transition-duration:0s !important; scroll-behavior:auto !important; } }

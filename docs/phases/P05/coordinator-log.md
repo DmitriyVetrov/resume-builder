@@ -1,0 +1,16 @@
+- 2026-11-03 run run_6d8d594259cb (shared P04+P05), worktree /home/dmytro/orca/workspaces/resumiser/p05
+- 2026-11-03 step solution-architect: codex gpt-6-sol high, check PASS, committed
+- 2026-11-03 step test-architect: codex gpt-6-sol high, check PASS, committed
+- 2026-11-03 step test-engineer: codex gpt-6-sol medium, check PASS (red), committed
+- 2026-11-03 step frontend-developer: codex gpt-6-sol medium, check PASS (green), committed. Note: shared Compose/CI wiring deferred to integration
+- 2026-11-03 step code-reviewer cycle 1: claude sonnet high, FAIL (F-01 critical, F-02/F-03 major)
+- 2026-11-03 review cycle 1: test-engineer added regression tests (red), committed
+- 2026-11-03 re-dispatch via --terminal silently failed (no task created); re-dispatched as fresh codex gpt-6-sol medium worker; dispatch output now checked for ok/taskId
+- 2026-11-03 review cycle 1: frontend-developer fixes F-01..F-04 committed as WIP; suite red only on RTL F-03 pending Test Engineer harness update (DD-P05-07); handoff FAIL expected, not counted as step failure
+- 2026-11-03 review cycle 1: test-engineer DD-P05-07 test update, suite green, committed
+- 2026-11-03 step code-reviewer cycle 2 (delta): claude sonnet high, PASS; non-blocking G-01..G-03 follow-ups
+- 2026-11-03 step qa: codex gpt-6-sol medium, FAIL (AC-P05-04: 23px overflow at 390px/200% zoom); fix cycle next
+- 2026-11-03 qa fix: frontend-developer fixed header overflow (shell.css), committed
+- 2026-11-03 qa fix: test-engineer added 200% zoom regression assertion, committed; QA re-run next
+- 2026-11-03 step qa re-run: codex gpt-6-sol medium, PASS; committed
+- 2026-11-03 gate PASS; P05 COMPLETED

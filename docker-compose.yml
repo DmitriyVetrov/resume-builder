@@ -1,0 +1,54 @@
+name: resumiser
+services:
+  web:
+    profiles: [app]
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    image: resumiser-p05-web:local
+    ports: ["127.0.0.1:${RESUMISER_WEB_PORT:-8080}:8080"]
+    networks: [resumiser]
+    security_opt: [no-new-privileges:true]
+    cap_drop: [ALL]
+    healthcheck:
+      test: [CMD, wget, -q, -O, /dev/null, http://127.0.0.1:8080/]
+      interval: 10s
+      retries: 5
+  mongo:
+    image: mongo:8.0.15@sha256:f4d54619262ae3bc6a0a8efbebcef970b87b8ad70697479a75ce308a6f400158
+    command: ["mongod", "--replSet", "rs0", "--bind_ip_all"]
+    ports: ["127.0.0.1:${RESUMISER_MONGO_PORT:-27017}:27017"]
+    volumes: ["mongo-data:/data/db"]
+    networks: [resumiser]
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - >-
+          mongosh --quiet --eval 'try { rs.status().myState === 1 } catch (e) { rs.initiate({_id: "rs0", members: [{_id: 0, host: "127.0.0.1:27017"}]}); false }' | grep true
+      interval: 3s
+      retries: 30
+  azurite:
+    image: mcr.microsoft.com/azure-storage/azurite:3.35.0@sha256:647c63a91102a9d8e8000aab803436e1fc85fbb285e7ce830a82ee5d6661cf37
+    command: ["azurite-blob", "--blobHost", "0.0.0.0", "--disableTelemetry"]
+    ports: ["127.0.0.1:${RESUMISER_AZURITE_BLOB_PORT:-10000}:10000"]
+    volumes: ["azurite-data:/data"]
+    networks: [resumiser]
+    healthcheck:
+      test: ["CMD", "node", "-e", "require('net').connect(10000,'127.0.0.1').on('connect',()=>process.exit(0)).on('error',()=>process.exit(1))"]
+      interval: 3s
+      retries: 30
+  mailpit:
+    image: axllent/mailpit:v1.27.0@sha256:fb84cfb1c3a33007cfdee8ba5a77b8c6c894de5b1a368372ddc5c965cf5c0b6d
+    environment:
+      MP_DISABLE_VERSION_CHECK: "true"
+    ports: ["127.0.0.1:${RESUMISER_MAILPIT_SMTP_PORT:-1025}:1025", "127.0.0.1:${RESUMISER_MAILPIT_UI_PORT:-8025}:8025"]
+    networks: [resumiser]
+    healthcheck:
+      test: ["CMD", "/mailpit", "readyz"]
+      interval: 3s
+      retries: 30
+volumes:
+  mongo-data: {}
+  azurite-data: {}
+networks:
+  resumiser: {}

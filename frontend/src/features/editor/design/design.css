@@ -1,0 +1,51 @@
+/* P10 Design tab, in the application's visual system (ui-ux-design.md); theme tokens only (ADR-053). */
+@layer components {
+.design-panel { display:flex; flex-direction:column; gap:12px; min-width:0; }
+.design-card { min-width:0; padding:16px; background:var(--color-panel); border:1px solid var(--color-line); border-radius:12px; }
+.design-card-title { display:block; margin:0 0 6px; font-size:13px; font-weight:650; color:var(--color-ink); }
+.design-label { display:block; margin:0 0 8px; font-size:.875rem; font-weight:500; line-height:1; color:var(--color-ink); }
+.design-group + .field,.design-group + div,.design-card > div + .design-group,.design-slider + .design-slider { margin-top:12px; }
+.design-options { display:flex; flex-wrap:wrap; gap:4px; min-width:0; }
+.design-value { font-size:13px; font-weight:650; font-variant-numeric:tabular-nums; }
+
+.design-option { position:relative; cursor:pointer; transition:border-color 120ms,color 120ms,background 120ms; }
+.design-option input[type=radio] { position:absolute; z-index:2; opacity:0; inset:0; width:100%; height:100%; margin:0; cursor:pointer; }
+
+.segmented .design-options { padding:3px; background:var(--color-field); border-radius:10px; }
+.segment { flex:1 1 auto; display:flex; align-items:center; justify-content:center; min-height:40px; padding:4px 10px; font-size:14px; text-align:center; border:1px solid transparent; border-radius:8px; color:var(--color-ink); }
+.segment.is-selected { background:var(--color-panel); border-color:var(--color-brand); color:var(--color-brand); font-weight:650; }
+
+.template-picker .design-options { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; }
+.template-option { display:flex; flex-direction:column; gap:6px; min-width:0; }
+.template-thumb { position:relative; display:block; aspect-ratio:595 / 842; overflow:hidden; background:var(--color-field); border:1px solid var(--color-line); border-radius:4px; }
+.template-option:hover .template-thumb { border-color:var(--color-brand); }
+.template-option.is-selected .template-thumb { outline:2px solid var(--color-brand); outline-offset:2px; }
+.template-check { position:absolute; top:4px; right:4px; display:flex; align-items:center; justify-content:center; width:20px; height:20px; border-radius:50%; background:var(--primary); color:var(--primary-foreground); }
+.template-name { font-size:13px; line-height:1.25; font-weight:600; overflow-wrap:anywhere; }
+.template-option.is-selected .template-name { color:var(--color-brand); }
+
+.swatch-row { display:flex; flex-wrap:wrap; align-items:flex-end; gap:4px 12px; }
+.swatch { display:flex; align-items:center; justify-content:center; width:44px; height:44px; border-radius:50%; }
+.swatch-dot { display:flex; align-items:center; justify-content:center; width:36px; height:36px; border-radius:50%; color:#fff; } /* document color: the check sits on the accent */
+.swatch.is-selected .swatch-dot { outline:2px solid var(--color-ink); outline-offset:2px; width:32px; height:32px; }
+.swatch-check { display:flex; filter:drop-shadow(0 0 1px #000); } /* document color */
+.swatch-name { padding-bottom:12px; font-size:14px; font-weight:600; }
+
+.design-slider-head { display:flex; justify-content:space-between; gap:8px; }
+.design-slider input[type=range] { display:block; width:100%; min-height:32px; margin:0; padding:0; accent-color:var(--color-brand); }
+.design-select,.design-custom { margin:12px 0 0; min-width:0; }
+.design-select select { min-width:0; }
+.design-custom input { width:100%; max-width:8rem; }
+.panel-design .field-grid .design-select { margin-top:0; }
+
+@media(prefers-reduced-motion:reduce) { .design-option { transition:none; } }
+
+.page-count { margin:8px 0 0; font-size:14px; font-weight:650; }
+.fit-row { display:flex; flex-wrap:wrap; align-items:flex-end; gap:8px; margin-top:8px; }
+.fit-row .field { margin:0; }
+.fit-result { margin:8px 0 0; font-size:13px; color:var(--color-muted-text); }
+}
+
+/* The radio is invisible over its card, so the card shows its focus (outside the layers, DD-UI-06). */
+.design-option:has(input:focus-visible) { outline:3px solid var(--color-focus); outline-offset:2px; }
+.design-option input[type=radio]:focus-visible { outline:none; }

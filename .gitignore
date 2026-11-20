@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Environment and secrets (keep placeholders in .env.example only)
+.env
+.env.*
+!.env.example
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Build outputs (P03+ toolchains)
+bin/
+obj/
+node_modules/
+dist/
+coverage/
+playwright-report/
+test-results/
+
+TestResults/
+*.trx
+.work/
+
+# MCP browser session artifacts (local, transient)
+.playwright-mcp/

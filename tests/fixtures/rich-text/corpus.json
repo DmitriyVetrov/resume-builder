@@ -1,0 +1,586 @@
+[
+ {
+  "name": "empty",
+  "blocks": []
+ },
+ {
+  "name": "one paragraph",
+  "blocks": [
+   {
+    "kind": "paragraph",
+    "inlines": [
+     {
+      "kind": "text",
+      "value": "Plain text",
+      "bold": false,
+      "italic": false,
+      "underline": false
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "all mark combinations",
+  "blocks": [
+   {
+    "kind": "paragraph",
+    "inlines": [
+     {
+      "kind": "text",
+      "value": "n ",
+      "bold": false,
+      "italic": false,
+      "underline": false
+     },
+     {
+      "kind": "text",
+      "value": "b ",
+      "bold": true,
+      "italic": false,
+      "underline": false
+     },
+     {
+      "kind": "text",
+      "value": "i ",
+      "bold": false,
+      "italic": true,
+      "underline": false
+     },
+     {
+      "kind": "text",
+      "value": "u ",
+      "bold": false,
+      "italic": false,
+      "underline": true
+     },
+     {
+      "kind": "text",
+      "value": "bi ",
+      "bold": true,
+      "italic": true,
+      "underline": false
+     },
+     {
+      "kind": "text",
+      "value": "bu ",
+      "bold": true,
+      "italic": false,
+      "underline": true
+     },
+     {
+      "kind": "text",
+      "value": "iu ",
+      "bold": false,
+      "italic": true,
+      "underline": true
+     },
+     {
+      "kind": "text",
+      "value": "biu",
+      "bold": true,
+      "italic": true,
+      "underline": true
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "line break",
+  "blocks": [
+   {
+    "kind": "paragraph",
+    "inlines": [
+     {
+      "kind": "text",
+      "value": "first",
+      "bold": false,
+      "italic": false,
+      "underline": false
+     },
+     {
+      "kind": "lineBreak"
+     },
+     {
+      "kind": "text",
+      "value": "second",
+      "bold": false,
+      "italic": false,
+      "underline": false
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "leading and trailing break",
+  "blocks": [
+   {
+    "kind": "paragraph",
+    "inlines": [
+     {
+      "kind": "lineBreak"
+     },
+     {
+      "kind": "text",
+      "value": "middle",
+      "bold": false,
+      "italic": false,
+      "underline": false
+     },
+     {
+      "kind": "lineBreak"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "link with mixed marks",
+  "blocks": [
+   {
+    "kind": "paragraph",
+    "inlines": [
+     {
+      "kind": "text",
+      "value": "see ",
+      "bold": false,
+      "italic": false,
+      "underline": false
+     },
+     {
+      "kind": "link",
+      "url": "https://example.invalid/a?b=1#c",
+      "children": [
+       {
+        "kind": "text",
+        "value": "plain ",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       },
+       {
+        "kind": "text",
+        "value": "bold",
+        "bold": true,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "kind": "text",
+      "value": " after",
+      "bold": false,
+      "italic": false,
+      "underline": false
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "every link scheme",
+  "blocks": [
+   {
+    "kind": "paragraph",
+    "inlines": [
+     {
+      "kind": "link",
+      "url": "https://example.invalid",
+      "children": [
+       {
+        "kind": "text",
+        "value": "https",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "kind": "text",
+      "value": " ",
+      "bold": false,
+      "italic": false,
+      "underline": false
+     },
+     {
+      "kind": "link",
+      "url": "http://example.invalid",
+      "children": [
+       {
+        "kind": "text",
+        "value": "http",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "kind": "text",
+      "value": " ",
+      "bold": false,
+      "italic": false,
+      "underline": false
+     },
+     {
+      "kind": "link",
+      "url": "mailto:person@example.invalid",
+      "children": [
+       {
+        "kind": "text",
+        "value": "mail",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "kind": "text",
+      "value": " ",
+      "bold": false,
+      "italic": false,
+      "underline": false
+     },
+     {
+      "kind": "link",
+      "url": "tel:+34600123456",
+      "children": [
+       {
+        "kind": "text",
+        "value": "phone",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "two different adjacent links",
+  "blocks": [
+   {
+    "kind": "paragraph",
+    "inlines": [
+     {
+      "kind": "link",
+      "url": "https://a.invalid",
+      "children": [
+       {
+        "kind": "text",
+        "value": "a",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "kind": "link",
+      "url": "https://b.invalid",
+      "children": [
+       {
+        "kind": "text",
+        "value": "b",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "bullets only",
+  "blocks": [
+   {
+    "kind": "bulletList",
+    "items": [
+     [
+      {
+       "kind": "text",
+       "value": "one",
+       "bold": false,
+       "italic": false,
+       "underline": false
+      }
+     ],
+     [
+      {
+       "kind": "text",
+       "value": "two",
+       "bold": true,
+       "italic": false,
+       "underline": false
+      }
+     ],
+     [
+      {
+       "kind": "link",
+       "url": "https://example.invalid",
+       "children": [
+        {
+         "kind": "text",
+         "value": "three",
+         "bold": false,
+         "italic": false,
+         "underline": false
+        }
+       ]
+      }
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "name": "reference CV shape: paragraph then bullets",
+  "blocks": [
+   {
+    "kind": "paragraph",
+    "inlines": [
+     {
+      "kind": "text",
+      "value": "Worked as a backend developer",
+      "bold": false,
+      "italic": false,
+      "underline": false
+     }
+    ]
+   },
+   {
+    "kind": "bulletList",
+    "items": [
+     [
+      {
+       "kind": "text",
+       "value": "Built ",
+       "bold": false,
+       "italic": false,
+       "underline": false
+      },
+      {
+       "kind": "text",
+       "value": "APIs",
+       "bold": true,
+       "italic": false,
+       "underline": false
+      }
+     ],
+     [
+      {
+       "kind": "text",
+       "value": "Ran services",
+       "bold": false,
+       "italic": false,
+       "underline": false
+      }
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "name": "empty bullet",
+  "blocks": [
+   {
+    "kind": "bulletList",
+    "items": [
+     [
+      {
+       "kind": "text",
+       "value": "a",
+       "bold": false,
+       "italic": false,
+       "underline": false
+      }
+     ],
+     [],
+     [
+      {
+       "kind": "text",
+       "value": "b",
+       "bold": false,
+       "italic": false,
+       "underline": false
+      }
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "name": "bullets then paragraph then bullets",
+  "blocks": [
+   {
+    "kind": "bulletList",
+    "items": [
+     [
+      {
+       "kind": "text",
+       "value": "a",
+       "bold": false,
+       "italic": false,
+       "underline": false
+      }
+     ]
+    ]
+   },
+   {
+    "kind": "paragraph",
+    "inlines": [
+     {
+      "kind": "text",
+      "value": "between",
+      "bold": false,
+      "italic": false,
+      "underline": false
+     }
+    ]
+   },
+   {
+    "kind": "bulletList",
+    "items": [
+     [
+      {
+       "kind": "text",
+       "value": "b",
+       "bold": false,
+       "italic": false,
+       "underline": false
+      }
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "name": "empty paragraphs between",
+  "blocks": [
+   {
+    "kind": "paragraph",
+    "inlines": [
+     {
+      "kind": "text",
+      "value": "a",
+      "bold": false,
+      "italic": false,
+      "underline": false
+     }
+    ]
+   },
+   {
+    "kind": "paragraph",
+    "inlines": []
+   },
+   {
+    "kind": "paragraph",
+    "inlines": [
+     {
+      "kind": "text",
+      "value": "b",
+      "bold": false,
+      "italic": false,
+      "underline": false
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "unicode: Spanish, Ukrainian, Slovak, emoji",
+  "blocks": [
+   {
+    "kind": "paragraph",
+    "inlines": [
+     {
+      "kind": "text",
+      "value": "Muñoz Peña, señor ¿qué? ",
+      "bold": false,
+      "italic": false,
+      "underline": false
+     }
+    ]
+   },
+   {
+    "kind": "paragraph",
+    "inlines": [
+     {
+      "kind": "text",
+      "value": "Олександр Шевченко їжак ґанок ",
+      "bold": true,
+      "italic": false,
+      "underline": false
+     }
+    ]
+   },
+   {
+    "kind": "paragraph",
+    "inlines": [
+     {
+      "kind": "text",
+      "value": "Ľubomír Šťastný žĺtý ",
+      "bold": false,
+      "italic": true,
+      "underline": false
+     }
+    ]
+   },
+   {
+    "kind": "paragraph",
+    "inlines": [
+     {
+      "kind": "text",
+      "value": "😀 👩🏽‍💻 𝒳",
+      "bold": false,
+      "italic": false,
+      "underline": false
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "markup-looking text stays text",
+  "blocks": [
+   {
+    "kind": "paragraph",
+    "inlines": [
+     {
+      "kind": "text",
+      "value": "<script>alert(1)</script> & <b>not bold</b> \"quoted\"",
+      "bold": false,
+      "italic": false,
+      "underline": false
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "spaces and tabs as typed",
+  "blocks": [
+   {
+    "kind": "paragraph",
+    "inlines": [
+     {
+      "kind": "text",
+      "value": "  two  spaces\tand tab  ",
+      "bold": false,
+      "italic": false,
+      "underline": false
+     }
+    ]
+   }
+  ]
+ }
+]

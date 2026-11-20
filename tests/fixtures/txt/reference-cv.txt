@@ -1,0 +1,28 @@
+Dmytro Vietrov | Software Engineer
+C# • .NET • SQL • Azure • Kubernetes • AI
+candidate.cv@example.com | +34600000000 • Paterna, Valencia, Spain • Permanent Resident | linkedin.com/in/dmvietrov (https://linkedin.com/in/dmvietrov)
+
+Professional Summary
+
+Software Engineer with 8+ years of experience building backend services, REST APIs, and cloud-based solutions. …
+
+What I Can Help With
+
+- C# / .NET / ASP.NET Core development - built and maintain scalable web applications
+- Backend development, bug fixing and maintenance, implement new features
+
+Professional Experience
+
+Software Engineer — Cayzu Inc
+Canada, Windsor (Freelance, Remote) | October 2025 - Present
+Worked as a backend developer for a helpdesk SaaS platform for non-profit educational organizations in Canada, focusing on moving the backend from a monolith to services:
+- Decomposed a legacy ASP.NET Core MVC help desk monolith into standalone .NET 8 Minimal API services, …
+- Decoupled a Notification service from the monolith: …
+
+Cloud DevOps Engineer — SAP
+Slovakia, Bratislava (On-Site) | February 2023 - June 2025
+- Developed a GitHub-based self-service workflow for on-demand Kubernetes cluster provisioning.
+
+Languages
+
+English - Professional B2 | Spanish - Conversation B1 | Ukrainian & Russian - Native | Slovak - Advanced

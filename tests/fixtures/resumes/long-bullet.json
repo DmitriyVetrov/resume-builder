@@ -1,0 +1,252 @@
+{
+ "title": "Long bullet",
+ "templateId": "T1",
+ "accentPreset": 0,
+ "language": "es",
+ "dateFormat": "MonthYearLong",
+ "layout": {
+  "fontPreset": "M",
+  "sectionSpacing": 10,
+  "entrySpacing": 10,
+  "lineSpacing": 1,
+  "pageSize": "A4",
+  "margins": {
+   "top": 23,
+   "right": 23,
+   "bottom": 23,
+   "left": 23
+  },
+  "bodyFont": null
+ },
+ "header": {
+  "fullName": "Lucía Ñáñez-Šťastná | Інженерка",
+  "headline": "Go • PostgreSQL • Kubernetes • Azure",
+  "showPhoto": true,
+  "contacts": [
+   {
+    "id": "01934f6e-7a2b-7c3d-8e4f-000000000001",
+    "text": "lucia@example.invalid",
+    "url": null,
+    "kind": "email"
+   },
+   {
+    "id": "01934f6e-7a2b-7c3d-8e4f-000000000002",
+    "text": "+34 600 000 000 • València, España • Residencia permanente",
+    "url": null,
+    "kind": "other"
+   },
+   {
+    "id": "01934f6e-7a2b-7c3d-8e4f-000000000003",
+    "text": "example.invalid/in/lucia",
+    "url": "https://example.invalid/in/lucia",
+    "kind": "link"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "hidden": false,
+   "listColumns": null,
+   "placement": null,
+   "id": "01934f6e-7a2b-7c3d-8e4f-000000000020",
+   "type": "text",
+   "title": "Resumen",
+   "content": {
+    "body": [
+     {
+      "kind": "paragraph",
+      "inlines": [
+       {
+        "kind": "text",
+        "value": "Ingeniera de software con experiencia en servicios distribuidos, migración de monolitos y mejora continua; también colabora con equipos de diseño, datos y atención al cliente en proyectos de larga duración.",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "hidden": false,
+   "listColumns": 1,
+   "placement": null,
+   "id": "01934f6e-7a2b-7c3d-8e4f-000000000021",
+   "type": "list",
+   "title": "Logros",
+   "content": {
+    "items": [
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000022",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000023",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000024",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000025",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000026",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000027",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000028",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000029",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000030",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000031",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000032",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000033",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000034",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000035",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones Migración de servicios, міграція застарілих систем and steady work on the release process with several teams across time zones",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

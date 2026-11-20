@@ -1,0 +1,148 @@
+Lucía Ñáñez-Šťastná | Інженерка
+Go • PostgreSQL • Kubernetes • Azure
+lucia@example.invalid | +34 600 000 000 • València, España • Residencia permanente | example.invalid/in/lucia (https://example.invalid/in/lucia)
+
+Resumen profesional
+
+Ingeniera de software con experiencia en servicios distribuidos, migración de monolitos y mejora continua; también colabora con equipos de diseño, datos y atención al cliente en proyectos de larga duración.
+
+Інженерка програмного забезпечення з досвідом розробки розподілених сервісів, міграції застарілих систем та налагодження процесів безперервної доставки для команд у різних часових поясах.
+
+Що я вмію
+
+- Backend en Go y C#, servicios escalables
+- REST y gRPC, integración con terceros
+- Міграція монолітів на сервіси
+- PostgreSQL, Entity Framework, índices
+- Kubernetes, Helm, Terraform
+- CI/CD, Azure DevOps, GitHub Actions
+
+Experiencia profesional
+
+Ingeniera de plataforma — Ñandú Sistemas
+València, España (Remoto) | enero 2023 - Actualidad
+Ingeniera de software con experiencia en servicios distribuidos, migración de monolitos y mejora continua; también colabora con equipos de diseño, datos y atención al cliente en proyectos de larga duración.
+- Rendimiento: redujo la latencia p95 del servicio de facturación de 900 ms a 180 ms mediante caché y consultas nuevas.
+- Відмовостійкість: запровадила автоматичне відновлення черг і скоротила кількість нічних інцидентів удвічі протягом року.
+- Observability: introduced structured logs and tracing across fourteen services, and retired two legacy dashboards.
+- Published the on-call runbook (https://example.invalid/runbook) and trained three teams to use it during incidents.
+- Mentored four engineers; two now lead their own teams on separate product lines.
+- Automated release notes and reduced the time from merge to production to under an hour.
+
+Backend Engineer — Example Payments
+Windsor, Canada (Freelance, Remote) | abril 2021 - junio 2023
+Інженерка програмного забезпечення з досвідом розробки розподілених сервісів, міграції застарілих систем та налагодження процесів безперервної доставки для команд у різних часових поясах.
+- Відмовостійкість: запровадила автоматичне відновлення черг і скоротила кількість нічних інцидентів удвічі протягом року.
+- Observability: introduced structured logs and tracing across fourteen services, and retired two legacy dashboards.
+- Published the on-call runbook (https://example.invalid/runbook) and trained three teams to use it during incidents.
+- Mentored four engineers; two now lead their own teams on separate product lines.
+- Automated release notes and reduced the time from merge to production to under an hour.
+- Rendimiento: redujo la latencia p95 del servicio de facturación de 900 ms a 180 ms mediante caché y consultas nuevas.
+
+Розробниця програмного забезпечення — Приклад Софт
+Київ, Україна | julio 2019 - noviembre 2021
+Worked on a payments platform for small merchants, moving reporting into a separate service and reducing the nightly batch window from six hours to forty minutes without changing the published schedule.
+- Observability: introduced structured logs and tracing across fourteen services, and retired two legacy dashboards.
+- Published the on-call runbook (https://example.invalid/runbook) and trained three teams to use it during incidents.
+- Mentored four engineers; two now lead their own teams on separate product lines.
+- Automated release notes and reduced the time from merge to production to under an hour.
+- Rendimiento: redujo la latencia p95 del servicio de facturación de 900 ms a 180 ms mediante caché y consultas nuevas.
+- Відмовостійкість: запровадила автоматичне відновлення черг і скоротила кількість нічних інцидентів удвічі протягом року.
+
+Site Reliability Engineer — Žilina Cloud s.r.o.
+Žilina, Slovensko (On-Site) | octubre 2017 - abril 2019
+Ingeniera de software con experiencia en servicios distribuidos, migración de monolitos y mejora continua; también colabora con equipos de diseño, datos y atención al cliente en proyectos de larga duración.
+- Published the on-call runbook (https://example.invalid/runbook) and trained three teams to use it during incidents.
+- Mentored four engineers; two now lead their own teams on separate product lines.
+- Automated release notes and reduced the time from merge to production to under an hour.
+- Rendimiento: redujo la latencia p95 del servicio de facturación de 900 ms a 180 ms mediante caché y consultas nuevas.
+- Відмовостійкість: запровадила автоматичне відновлення черг і скоротила кількість нічних інцидентів удвічі протягом року.
+- Observability: introduced structured logs and tracing across fourteen services, and retired two legacy dashboards.
+
+Ingeniera de plataforma — Ñandú Sistemas
+València, España (Remoto) | enero 2015 - septiembre 2017
+Інженерка програмного забезпечення з досвідом розробки розподілених сервісів, міграції застарілих систем та налагодження процесів безперервної доставки для команд у різних часових поясах.
+- Mentored four engineers; two now lead their own teams on separate product lines.
+- Automated release notes and reduced the time from merge to production to under an hour.
+- Rendimiento: redujo la latencia p95 del servicio de facturación de 900 ms a 180 ms mediante caché y consultas nuevas.
+- Відмовостійкість: запровадила автоматичне відновлення черг і скоротила кількість нічних інцидентів удвічі протягом року.
+- Observability: introduced structured logs and tracing across fourteen services, and retired two legacy dashboards.
+- Published the on-call runbook (https://example.invalid/runbook) and trained three teams to use it during incidents.
+
+Backend Engineer — Example Payments
+Windsor, Canada (Freelance, Remote) | abril 2013 - febrero 2015
+Worked on a payments platform for small merchants, moving reporting into a separate service and reducing the nightly batch window from six hours to forty minutes without changing the published schedule.
+- Automated release notes and reduced the time from merge to production to under an hour.
+- Rendimiento: redujo la latencia p95 del servicio de facturación de 900 ms a 180 ms mediante caché y consultas nuevas.
+- Відмовостійкість: запровадила автоматичне відновлення черг і скоротила кількість нічних інцидентів удвічі протягом року.
+- Observability: introduced structured logs and tracing across fourteen services, and retired two legacy dashboards.
+- Published the on-call runbook (https://example.invalid/runbook) and trained three teams to use it during incidents.
+- Mentored four engineers; two now lead their own teams on separate product lines.
+
+Розробниця програмного забезпечення — Приклад Софт
+Київ, Україна | julio 2011 - julio 2013
+Ingeniera de software con experiencia en servicios distribuidos, migración de monolitos y mejora continua; también colabora con equipos de diseño, datos y atención al cliente en proyectos de larga duración.
+- Rendimiento: redujo la latencia p95 del servicio de facturación de 900 ms a 180 ms mediante caché y consultas nuevas.
+- Відмовостійкість: запровадила автоматичне відновлення черг і скоротила кількість нічних інцидентів удвічі протягом року.
+- Observability: introduced structured logs and tracing across fourteen services, and retired two legacy dashboards.
+- Published the on-call runbook (https://example.invalid/runbook) and trained three teams to use it during incidents.
+- Mentored four engineers; two now lead their own teams on separate product lines.
+- Automated release notes and reduced the time from merge to production to under an hour.
+
+Site Reliability Engineer — Žilina Cloud s.r.o.
+Žilina, Slovensko (On-Site) | octubre 2009 - diciembre 2011
+Інженерка програмного забезпечення з досвідом розробки розподілених сервісів, міграції застарілих систем та налагодження процесів безперервної доставки для команд у різних часових поясах.
+- Відмовостійкість: запровадила автоматичне відновлення черг і скоротила кількість нічних інцидентів удвічі протягом року.
+- Observability: introduced structured logs and tracing across fourteen services, and retired two legacy dashboards.
+- Published the on-call runbook (https://example.invalid/runbook) and trained three teams to use it during incidents.
+- Mentored four engineers; two now lead their own teams on separate product lines.
+- Automated release notes and reduced the time from merge to production to under an hour.
+- Rendimiento: redujo la latencia p95 del servicio de facturación de 900 ms a 180 ms mediante caché y consultas nuevas.
+
+Ingeniera de plataforma — Ñandú Sistemas
+València, España (Remoto) | enero 2007 - mayo 2009
+Worked on a payments platform for small merchants, moving reporting into a separate service and reducing the nightly batch window from six hours to forty minutes without changing the published schedule.
+- Observability: introduced structured logs and tracing across fourteen services, and retired two legacy dashboards.
+- Published the on-call runbook (https://example.invalid/runbook) and trained three teams to use it during incidents.
+- Mentored four engineers; two now lead their own teams on separate product lines.
+- Automated release notes and reduced the time from merge to production to under an hour.
+- Rendimiento: redujo la latencia p95 del servicio de facturación de 900 ms a 180 ms mediante caché y consultas nuevas.
+- Відмовостійкість: запровадила автоматичне відновлення черг і скоротила кількість нічних інцидентів удвічі протягом року.
+
+Backend Engineer — Example Payments
+Windsor, Canada (Freelance, Remote) | abril 2005 - octubre 2007
+Ingeniera de software con experiencia en servicios distribuidos, migración de monolitos y mejora continua; también colabora con equipos de diseño, datos y atención al cliente en proyectos de larga duración.
+- Published the on-call runbook (https://example.invalid/runbook) and trained three teams to use it during incidents.
+- Mentored four engineers; two now lead their own teams on separate product lines.
+- Automated release notes and reduced the time from merge to production to under an hour.
+- Rendimiento: redujo la latencia p95 del servicio de facturación de 900 ms a 180 ms mediante caché y consultas nuevas.
+- Відмовостійкість: запровадила автоматичне відновлення черг і скоротила кількість нічних інцидентів удвічі протягом року.
+- Observability: introduced structured logs and tracing across fourteen services, and retired two legacy dashboards.
+
+Освіта
+
+Máster en Ingeniería Informática — Universidad de València
+València, España | 2010 - 2012
+
+Proyecto 1
+
+Ingeniera de software con experiencia en servicios distribuidos, migración de monolitos y mejora continua; también colabora con equipos de diseño, datos y atención al cliente en proyectos de larga duración.
+
+- Rendimiento: redujo la latencia p95 del servicio de facturación de 900 ms a 180 ms mediante caché y consultas nuevas.
+- Відмовостійкість: запровадила автоматичне відновлення черг і скоротила кількість нічних інцидентів удвічі протягом року.
+
+Proyecto 2
+
+Інженерка програмного забезпечення з досвідом розробки розподілених сервісів, міграції застарілих систем та налагодження процесів безперервної доставки для команд у різних часових поясах.
+
+- Відмовостійкість: запровадила автоматичне відновлення черг і скоротила кількість нічних інцидентів удвічі протягом року.
+- Observability: introduced structured logs and tracing across fourteen services, and retired two legacy dashboards.
+
+Technical skills
+
+- Bases de datos: PostgreSQL, SQL Server, Redis
+- Хмара: Azure, Kubernetes, Docker
+
+Languages
+
+Español - nativo | Українська - рідна | English - B2 | Slovenčina - pokročilá

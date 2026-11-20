@@ -1,0 +1,1155 @@
+{
+ "title": "Panel mirror long",
+ "templateId": "T4",
+ "accentPreset": 0,
+ "language": "en",
+ "dateFormat": "MonthYearShort",
+ "layout": {
+  "fontPreset": "M",
+  "sectionSpacing": 4,
+  "entrySpacing": 6,
+  "lineSpacing": 1,
+  "pageSize": "A4",
+  "margins": {
+   "top": 23,
+   "right": 23,
+   "bottom": 23,
+   "left": 23
+  },
+  "bodyFont": null
+ },
+ "header": {
+  "fullName": "Jonas EKWALL",
+  "headline": "DevOps / Platform Engineer",
+  "showPhoto": true,
+  "contacts": [
+   {
+    "id": "01934f6e-7a2b-7c3d-8e4f-700000000013",
+    "text": "jonas.ekwall@example.invalid",
+    "url": null,
+    "kind": "email"
+   },
+   {
+    "id": "01934f6e-7a2b-7c3d-8e4f-700000000014",
+    "text": "+41 70 000 00 00",
+    "url": null,
+    "kind": "phone"
+   },
+   {
+    "id": "01934f6e-7a2b-7c3d-8e4f-700000000015",
+    "text": "Lausanne, Switzerland",
+    "url": null,
+    "kind": "location"
+   },
+   {
+    "id": "01934f6e-7a2b-7c3d-8e4f-700000000016",
+    "text": "example.invalid/in/jekwall",
+    "url": "https://example.invalid/in/jekwall",
+    "kind": "link"
+   },
+   {
+    "id": "01934f6e-7a2b-7c3d-8e4f-700000000017",
+    "text": "Work permit B · available immediately",
+    "url": null,
+    "kind": "other"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "hidden": false,
+   "listColumns": null,
+   "placement": null,
+   "id": "01934f6e-7a2b-7c3d-8e4f-700000000018",
+   "type": "text",
+   "title": "",
+   "content": {
+    "body": [
+     {
+      "kind": "paragraph",
+      "inlines": [
+       {
+        "kind": "text",
+        "value": "DevOps / Platform Engineer with 8+ years building and scaling CI/CD and Kubernetes platforms on two public clouds and on-premises. Designs CI/CD with security built in (static and dynamic analysis, image signing, SBOM), GitOps with Argo CD, and reusable Terraform and Ansible modules. Strong Java/Spring, Python and event-driven troubleshooting; 11 years at a Big Four firm, 20 years in IT infrastructure.",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "hidden": false,
+   "listColumns": null,
+   "placement": null,
+   "id": "01934f6e-7a2b-7c3d-8e4f-700000000019",
+   "type": "entries",
+   "title": "Work Experience",
+   "content": {
+    "labels": null,
+    "entries": [
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-700000000001",
+      "title": "Platform Engineer & Founder",
+      "organization": "Self-employed",
+      "location": "Lausanne, Switzerland",
+      "start": {
+       "kind": "date",
+       "year": 2024,
+       "month": null
+      },
+      "end": {
+       "kind": "present"
+      },
+      "dateText": "",
+      "description": [
+       {
+        "kind": "bulletList",
+        "items": [
+         [
+          {
+           "kind": "text",
+           "value": "Build and run three small AI products on two clouds: ",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          },
+          {
+           "kind": "link",
+           "url": "https://example.invalid/aurora",
+           "children": [
+            {
+             "kind": "text",
+             "value": "Aurora.example",
+             "bold": false,
+             "italic": false,
+             "underline": false
+            }
+           ]
+          },
+          {
+           "kind": "text",
+           "value": ", ",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          },
+          {
+           "kind": "link",
+           "url": "https://example.invalid/brightnote",
+           "children": [
+            {
+             "kind": "text",
+             "value": "BrightNote.example",
+             "bold": false,
+             "italic": false,
+             "underline": false
+            }
+           ]
+          },
+          {
+           "kind": "text",
+           "value": ", ",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          },
+          {
+           "kind": "link",
+           "url": "https://example.invalid/kestrel",
+           "children": [
+            {
+             "kind": "text",
+             "value": "Kestrel.example",
+             "bold": false,
+             "italic": false,
+             "underline": false
+            }
+           ]
+          },
+          {
+           "kind": "text",
+           "value": "; own architecture, Kubernetes, Helm, Terraform and CI/CD.",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          }
+         ],
+         [
+          {
+           "kind": "text",
+           "value": "Supply-chain security in CI/CD: static analysis, image scanning, signed images and SBOM attestation.",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          }
+         ],
+         [
+          {
+           "kind": "text",
+           "value": "Full-stack development (TypeScript, Python, PostgreSQL) with AI-assisted engineering.",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          }
+         ],
+         [
+          {
+           "kind": "text",
+           "value": "Sole author of a patent application on trust verification across cloud and on-premises environments.",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          }
+         ]
+        ]
+       }
+      ],
+      "pageBreakBefore": false
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-700000000002",
+      "title": "DevOps Engineer",
+      "organization": "Northwind Analytics",
+      "location": "Lausanne, Switzerland",
+      "start": {
+       "kind": "date",
+       "year": 2026,
+       "month": 1
+      },
+      "end": {
+       "kind": "date",
+       "year": 2026,
+       "month": 5
+      },
+      "dateText": "",
+      "description": [
+       {
+        "kind": "bulletList",
+        "items": [
+         [
+          {
+           "kind": "text",
+           "value": "Delivered an internal LLM platform from concept to production, deployable as SaaS or on-premises.",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          }
+         ],
+         [
+          {
+           "kind": "text",
+           "value": "Built CI/CD pipelines for build, test, registry, Helm deployment and static analysis; infrastructure in Terraform.",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          }
+         ],
+         [
+          {
+           "kind": "text",
+           "value": "Hardened security with RBAC, mTLS, domain allow-listing and Kubernetes Secrets.",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          }
+         ]
+        ]
+       }
+      ],
+      "pageBreakBefore": false
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-700000000003",
+      "title": "Senior DevOps Engineer",
+      "organization": "Contoso Consulting",
+      "location": "Client: a large retailer",
+      "start": {
+       "kind": "date",
+       "year": 2020,
+       "month": 11
+      },
+      "end": {
+       "kind": "date",
+       "year": 2024,
+       "month": 6
+      },
+      "dateText": "",
+      "description": [
+       {
+        "kind": "bulletList",
+        "items": [
+         [
+          {
+           "kind": "text",
+           "value": "Ran Kubernetes clusters for more than 100 microservices under heavy production traffic, with reusable Terraform modules.",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          }
+         ],
+         [
+          {
+           "kind": "text",
+           "value": "Operated CI/CD at scale across several environments with canary releases, approvals and safe rollbacks.",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          }
+         ],
+         [
+          {
+           "kind": "text",
+           "value": "Reduced load balancer costs by more than 60% with a shared ingress and consolidated routing.",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          }
+         ],
+         [
+          {
+           "kind": "text",
+           "value": "Defined monitoring as code and wrote the runbooks the on-call rota used.",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          }
+         ],
+         [
+          {
+           "kind": "text",
+           "value": "Mentored a junior engineer and turned recurring escalations into documented, automated fixes.",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          }
+         ]
+        ]
+       }
+      ],
+      "pageBreakBefore": false
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-700000000004",
+      "title": "Application Engineer / DevOps",
+      "organization": "Fabrikam Hospitality",
+      "location": "Hospitality SaaS",
+      "start": {
+       "kind": "date",
+       "year": 2019,
+       "month": 8
+      },
+      "end": {
+       "kind": "date",
+       "year": 2020,
+       "month": 10
+      },
+      "dateText": "",
+      "description": [
+       {
+        "kind": "bulletList",
+        "items": [
+         [
+          {
+           "kind": "text",
+           "value": "Incident response and root cause analysis for services on a public cloud; Python and SQL data pipelines.",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          }
+         ]
+        ]
+       }
+      ],
+      "pageBreakBefore": false
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-700000000005",
+      "title": "Observability Platform Engineer",
+      "organization": "Tailspin Metrics",
+      "location": "Observability and FinOps platform",
+      "start": {
+       "kind": "date",
+       "year": 2018,
+       "month": 10
+      },
+      "end": {
+       "kind": "date",
+       "year": 2019,
+       "month": 7
+      },
+      "dateText": "",
+      "description": [
+       {
+        "kind": "bulletList",
+        "items": [
+         [
+          {
+           "kind": "text",
+           "value": "Escalation point for customer teams: troubleshooting and root cause analysis across cloud services.",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          }
+         ],
+         [
+          {
+           "kind": "text",
+           "value": "Built agent features, plugins and scripts; rolled out agent deployments with configuration management.",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          }
+         ]
+        ]
+       }
+      ],
+      "pageBreakBefore": false
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-700000000006",
+      "title": "IT Engineer",
+      "organization": "Litware Video",
+      "location": "Video analytics, Zurich",
+      "start": {
+       "kind": "date",
+       "year": 2017,
+       "month": null
+      },
+      "end": {
+       "kind": "date",
+       "year": 2018,
+       "month": null
+      },
+      "dateText": "",
+      "description": [
+       {
+        "kind": "bulletList",
+        "items": [
+         [
+          {
+           "kind": "text",
+           "value": "Video services: integrations, troubleshooting and Python automation for a global SaaS platform.",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          }
+         ]
+        ]
+       }
+      ],
+      "pageBreakBefore": false
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-700000000007",
+      "title": "Senior IT Specialist / Systems Engineer",
+      "organization": "Adatum Audit",
+      "location": "Big Four",
+      "start": {
+       "kind": "date",
+       "year": 2006,
+       "month": null
+      },
+      "end": {
+       "kind": "date",
+       "year": 2017,
+       "month": null
+      },
+      "dateText": "",
+      "description": [
+       {
+        "kind": "bulletList",
+        "items": [
+         [
+          {
+           "kind": "text",
+           "value": "Ran enterprise infrastructure across a region and built a new office from scratch; cut malware incidents by 90%.",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          }
+         ]
+        ]
+       }
+      ],
+      "pageBreakBefore": false
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-700000000008",
+      "title": "Systems Administrator / Programmer",
+      "organization": "Woodgrove Institute",
+      "location": "Applied research",
+      "start": {
+       "kind": "date",
+       "year": 2001,
+       "month": null
+      },
+      "end": {
+       "kind": "date",
+       "year": 2006,
+       "month": null
+      },
+      "dateText": "",
+      "description": [
+       {
+        "kind": "bulletList",
+        "items": [
+         [
+          {
+           "kind": "text",
+           "value": "Linux, BSD and Windows servers, SQL databases and backups; C++ and database tools.",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          }
+         ]
+        ]
+       }
+      ],
+      "pageBreakBefore": false
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-700000000009",
+      "title": "Contract Engineer 1",
+      "organization": "Proseware Labs",
+      "location": "Remote",
+      "start": {
+       "kind": "date",
+       "year": 1999,
+       "month": null
+      },
+      "end": {
+       "kind": "date",
+       "year": 2000,
+       "month": null
+      },
+      "dateText": "",
+      "description": [
+       {
+        "kind": "bulletList",
+        "items": [
+         [
+          {
+           "kind": "text",
+           "value": "Ingeniera de software con experiencia en servicios distribuidos, migración de monolitos y mejora continua; también colabora con equipos de diseño, datos y atención al cliente en proyectos de larga duración.",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          }
+         ],
+         [
+          {
+           "kind": "text",
+           "value": "Інженерка програмного забезпечення з досвідом розробки розподілених сервісів, міграції застарілих систем та налагодження процесів безперервної доставки для команд у різних часових поясах.",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          }
+         ],
+         [
+          {
+           "kind": "text",
+           "value": "Worked on a payments platform for small merchants, moving reporting into a separate service and reducing the nightly batch window from six hours to forty minutes without changing the published schedule.",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          }
+         ]
+        ]
+       }
+      ],
+      "pageBreakBefore": false
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-700000000010",
+      "title": "Contract Engineer 2",
+      "organization": "Proseware Labs",
+      "location": "Remote",
+      "start": {
+       "kind": "date",
+       "year": 1998,
+       "month": null
+      },
+      "end": {
+       "kind": "date",
+       "year": 1999,
+       "month": null
+      },
+      "dateText": "",
+      "description": [
+       {
+        "kind": "bulletList",
+        "items": [
+         [
+          {
+           "kind": "text",
+           "value": "Інженерка програмного забезпечення з досвідом розробки розподілених сервісів, міграції застарілих систем та налагодження процесів безперервної доставки для команд у різних часових поясах.",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          }
+         ],
+         [
+          {
+           "kind": "text",
+           "value": "Worked on a payments platform for small merchants, moving reporting into a separate service and reducing the nightly batch window from six hours to forty minutes without changing the published schedule.",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          }
+         ],
+         [
+          {
+           "kind": "text",
+           "value": "Ingeniera de software con experiencia en servicios distribuidos, migración de monolitos y mejora continua; también colabora con equipos de diseño, datos y atención al cliente en proyectos de larga duración.",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          }
+         ]
+        ]
+       }
+      ],
+      "pageBreakBefore": false
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-700000000011",
+      "title": "Contract Engineer 3",
+      "organization": "Proseware Labs",
+      "location": "Remote",
+      "start": {
+       "kind": "date",
+       "year": 1997,
+       "month": null
+      },
+      "end": {
+       "kind": "date",
+       "year": 1998,
+       "month": null
+      },
+      "dateText": "",
+      "description": [
+       {
+        "kind": "bulletList",
+        "items": [
+         [
+          {
+           "kind": "text",
+           "value": "Worked on a payments platform for small merchants, moving reporting into a separate service and reducing the nightly batch window from six hours to forty minutes without changing the published schedule.",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          }
+         ],
+         [
+          {
+           "kind": "text",
+           "value": "Ingeniera de software con experiencia en servicios distribuidos, migración de monolitos y mejora continua; también colabora con equipos de diseño, datos y atención al cliente en proyectos de larga duración.",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          }
+         ],
+         [
+          {
+           "kind": "text",
+           "value": "Інженерка програмного забезпечення з досвідом розробки розподілених сервісів, міграції застарілих систем та налагодження процесів безперервної доставки для команд у різних часових поясах.",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          }
+         ]
+        ]
+       }
+      ],
+      "pageBreakBefore": false
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-700000000012",
+      "title": "Contract Engineer 4",
+      "organization": "Proseware Labs",
+      "location": "Remote",
+      "start": {
+       "kind": "date",
+       "year": 1996,
+       "month": null
+      },
+      "end": {
+       "kind": "date",
+       "year": 1997,
+       "month": null
+      },
+      "dateText": "",
+      "description": [
+       {
+        "kind": "bulletList",
+        "items": [
+         [
+          {
+           "kind": "text",
+           "value": "Ingeniera de software con experiencia en servicios distribuidos, migración de monolitos y mejora continua; también colabora con equipos de diseño, datos y atención al cliente en proyectos de larga duración.",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          }
+         ],
+         [
+          {
+           "kind": "text",
+           "value": "Інженерка програмного забезпечення з досвідом розробки розподілених сервісів, міграції застарілих систем та налагодження процесів безперервної доставки для команд у різних часових поясах.",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          }
+         ],
+         [
+          {
+           "kind": "text",
+           "value": "Worked on a payments platform for small merchants, moving reporting into a separate service and reducing the nightly batch window from six hours to forty minutes without changing the published schedule.",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          }
+         ]
+        ]
+       }
+      ],
+      "pageBreakBefore": false
+     }
+    ]
+   }
+  },
+  {
+   "hidden": false,
+   "listColumns": null,
+   "placement": "sidebar",
+   "id": "01934f6e-7a2b-7c3d-8e4f-700000000020",
+   "type": "entries",
+   "title": "Languages",
+   "content": {
+    "labels": {
+     "title": "Language",
+     "organization": "Level",
+     "location": null
+    },
+    "entries": [
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-700000000021",
+      "title": "English",
+      "organization": "Fluent",
+      "location": "",
+      "start": null,
+      "end": null,
+      "dateText": "",
+      "description": [],
+      "pageBreakBefore": false
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-700000000022",
+      "title": "French",
+      "organization": "Intermediate, actively improving",
+      "location": "",
+      "start": null,
+      "end": null,
+      "dateText": "",
+      "description": [],
+      "pageBreakBefore": false
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-700000000023",
+      "title": "Ukrainian, Polish",
+      "organization": "Native",
+      "location": "",
+      "start": null,
+      "end": null,
+      "dateText": "",
+      "description": [],
+      "pageBreakBefore": false
+     }
+    ]
+   }
+  },
+  {
+   "hidden": false,
+   "listColumns": null,
+   "placement": "sidebar",
+   "id": "01934f6e-7a2b-7c3d-8e4f-700000000024",
+   "type": "entries",
+   "title": "Technical Skills",
+   "content": {
+    "labels": {
+     "title": "Area",
+     "organization": "Skills",
+     "location": null
+    },
+    "entries": [
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-700000000025",
+      "title": "Cloud & messaging",
+      "organization": "Kubernetes, object storage, IAM, queues; Kafka (service integration)",
+      "location": "",
+      "start": null,
+      "end": null,
+      "dateText": "",
+      "description": [],
+      "pageBreakBefore": false
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-700000000026",
+      "title": "IaC & config management",
+      "organization": "Terraform, Ansible, Puppet; reusable IaC modules and automation",
+      "location": "",
+      "start": null,
+      "end": null,
+      "dateText": "",
+      "description": [],
+      "pageBreakBefore": false
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-700000000027",
+      "title": "CI/CD & GitOps",
+      "organization": "GitLab CI/CD, GitHub Actions, Argo CD, Helm, reusable pipeline templates",
+      "location": "",
+      "start": null,
+      "end": null,
+      "dateText": "",
+      "description": [],
+      "pageBreakBefore": false
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-700000000028",
+      "title": "Containers",
+      "organization": "Kubernetes (managed and on-premises), Docker, Docker Compose",
+      "location": "",
+      "start": null,
+      "end": null,
+      "dateText": "",
+      "description": [],
+      "pageBreakBefore": false
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-700000000029",
+      "title": "Programming",
+      "organization": "Python, Bash, TypeScript, SQL, C++; Java/Spring support",
+      "location": "",
+      "start": null,
+      "end": null,
+      "dateText": "",
+      "description": [],
+      "pageBreakBefore": false
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-700000000030",
+      "title": "DevSecOps & supply chain",
+      "organization": "Static and dynamic analysis, image signing and SBOM, RBAC, mTLS",
+      "location": "",
+      "start": null,
+      "end": null,
+      "dateText": "",
+      "description": [],
+      "pageBreakBefore": false
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-700000000031",
+      "title": "Observability",
+      "organization": "Prometheus, Grafana, OpenTelemetry, log and trace platforms",
+      "location": "",
+      "start": null,
+      "end": null,
+      "dateText": "",
+      "description": [],
+      "pageBreakBefore": false
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-700000000032",
+      "title": "Systems & networking",
+      "organization": "Linux, Windows, DNS, TCP/IP, HTTP/TLS, SMTP",
+      "location": "",
+      "start": null,
+      "end": null,
+      "dateText": "",
+      "description": [],
+      "pageBreakBefore": false
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-700000000033",
+      "title": "AI engineering",
+      "organization": "Coding assistants, local LLM serving",
+      "location": "",
+      "start": null,
+      "end": null,
+      "dateText": "",
+      "description": [],
+      "pageBreakBefore": false
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-700000000034",
+      "title": "Extra area 1",
+      "organization": "Several tools and practices, listed here to make the sidebar run to a second page",
+      "location": "",
+      "start": null,
+      "end": null,
+      "dateText": "",
+      "description": [],
+      "pageBreakBefore": false
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-700000000035",
+      "title": "Extra area 2",
+      "organization": "Several tools and practices, listed here to make the sidebar run to a second page",
+      "location": "",
+      "start": null,
+      "end": null,
+      "dateText": "",
+      "description": [],
+      "pageBreakBefore": false
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-700000000036",
+      "title": "Extra area 3",
+      "organization": "Several tools and practices, listed here to make the sidebar run to a second page",
+      "location": "",
+      "start": null,
+      "end": null,
+      "dateText": "",
+      "description": [],
+      "pageBreakBefore": false
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-700000000037",
+      "title": "Extra area 4",
+      "organization": "Several tools and practices, listed here to make the sidebar run to a second page",
+      "location": "",
+      "start": null,
+      "end": null,
+      "dateText": "",
+      "description": [],
+      "pageBreakBefore": false
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-700000000038",
+      "title": "Extra area 5",
+      "organization": "Several tools and practices, listed here to make the sidebar run to a second page",
+      "location": "",
+      "start": null,
+      "end": null,
+      "dateText": "",
+      "description": [],
+      "pageBreakBefore": false
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-700000000039",
+      "title": "Extra area 6",
+      "organization": "Several tools and practices, listed here to make the sidebar run to a second page",
+      "location": "",
+      "start": null,
+      "end": null,
+      "dateText": "",
+      "description": [],
+      "pageBreakBefore": false
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-700000000040",
+      "title": "Extra area 7",
+      "organization": "Several tools and practices, listed here to make the sidebar run to a second page",
+      "location": "",
+      "start": null,
+      "end": null,
+      "dateText": "",
+      "description": [],
+      "pageBreakBefore": false
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-700000000041",
+      "title": "Extra area 8",
+      "organization": "Several tools and practices, listed here to make the sidebar run to a second page",
+      "location": "",
+      "start": null,
+      "end": null,
+      "dateText": "",
+      "description": [],
+      "pageBreakBefore": false
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-700000000042",
+      "title": "Extra area 9",
+      "organization": "Several tools and practices, listed here to make the sidebar run to a second page",
+      "location": "",
+      "start": null,
+      "end": null,
+      "dateText": "",
+      "description": [],
+      "pageBreakBefore": false
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-700000000043",
+      "title": "Extra area 10",
+      "organization": "Several tools and practices, listed here to make the sidebar run to a second page",
+      "location": "",
+      "start": null,
+      "end": null,
+      "dateText": "",
+      "description": [],
+      "pageBreakBefore": false
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-700000000044",
+      "title": "Extra area 11",
+      "organization": "Several tools and practices, listed here to make the sidebar run to a second page",
+      "location": "",
+      "start": null,
+      "end": null,
+      "dateText": "",
+      "description": [],
+      "pageBreakBefore": false
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-700000000045",
+      "title": "Extra area 12",
+      "organization": "Several tools and practices, listed here to make the sidebar run to a second page",
+      "location": "",
+      "start": null,
+      "end": null,
+      "dateText": "",
+      "description": [],
+      "pageBreakBefore": false
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-700000000046",
+      "title": "Extra area 13",
+      "organization": "Several tools and practices, listed here to make the sidebar run to a second page",
+      "location": "",
+      "start": null,
+      "end": null,
+      "dateText": "",
+      "description": [],
+      "pageBreakBefore": false
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-700000000047",
+      "title": "Extra area 14",
+      "organization": "Several tools and practices, listed here to make the sidebar run to a second page",
+      "location": "",
+      "start": null,
+      "end": null,
+      "dateText": "",
+      "description": [],
+      "pageBreakBefore": false
+     }
+    ]
+   }
+  },
+  {
+   "hidden": false,
+   "listColumns": null,
+   "placement": "sidebar",
+   "id": "01934f6e-7a2b-7c3d-8e4f-700000000048",
+   "type": "entries",
+   "title": "Certifications & Education",
+   "content": {
+    "labels": null,
+    "entries": [
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-700000000049",
+      "title": "Cloud Solutions Architect",
+      "organization": "Associate, 2026",
+      "location": "",
+      "start": null,
+      "end": null,
+      "dateText": "",
+      "description": [],
+      "pageBreakBefore": false
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-700000000050",
+      "title": "Terraform Associate",
+      "organization": "Associate, 2026",
+      "location": "",
+      "start": null,
+      "end": null,
+      "dateText": "",
+      "description": [],
+      "pageBreakBefore": false
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-700000000051",
+      "title": "Woodgrove Polytechnic",
+      "organization": "B.Sc., Information Systems",
+      "location": "",
+      "start": {
+       "kind": "date",
+       "year": 1999,
+       "month": null
+      },
+      "end": {
+       "kind": "date",
+       "year": 2003,
+       "month": null
+      },
+      "dateText": "",
+      "description": [],
+      "pageBreakBefore": false
+     }
+    ]
+   }
+  },
+  {
+   "hidden": false,
+   "listColumns": null,
+   "placement": "sidebar",
+   "id": "01934f6e-7a2b-7c3d-8e4f-700000000052",
+   "type": "text",
+   "title": "Mentoring Programme (Lyon)",
+   "content": {
+    "body": [
+     {
+      "kind": "paragraph",
+      "inlines": [
+       {
+        "kind": "text",
+        "value": "40% of gross salary covered",
+        "bold": true,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "kind": "paragraph",
+      "inlines": [
+       {
+        "kind": "text",
+        "value": "Regional subsidy for 6 months (",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       },
+       {
+        "kind": "link",
+        "url": "https://example.invalid/programme",
+        "children": [
+         {
+          "kind": "text",
+          "value": "learn more",
+          "bold": false,
+          "italic": false,
+          "underline": false
+         }
+        ]
+       },
+       {
+        "kind": "text",
+        "value": ").",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+Alex Sample
+Platform Engineer
+alex.sample@example.com | Springfield
+
+Summary
+
+Builds platforms that product teams enjoy using.
+
+Skills
+
+- Kubernetes
+- Terraform

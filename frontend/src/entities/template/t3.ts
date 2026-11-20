@@ -1,0 +1,40 @@
+import type { TemplateDefinition } from './types';
+
+/** T3 Sidebar: ADR-024, with ADR-025 for placement. */
+export const t3: TemplateDefinition = {
+  id: 'T3',
+  name: 'Sidebar',
+  accents: [{ name: 'Navy', hex: '#2F4F6F' }, { name: 'Forest', hex: '#22584D' }, { name: 'Burgundy', hex: '#7A2E3A' }],
+  fonts: ['roboto', 'ibm-plex-sans', 'pt-serif'],
+  defaults: { fontPreset: 'M', sectionSpacing: 10, entrySpacing: 10, lineSpacing: 1, margin: 23, pageSize: 'A4', accentPreset: 0 },
+  styles: {
+    name: { size: 24, bold: false, italic: false, upper: true, color: 'onAccent' },
+    headline: { size: 11, bold: true, italic: false, upper: true, color: 'onAccent' },
+    contact: { size: 9.5, bold: false, italic: false, upper: false, color: 'onAccent' },
+    sectionTitle: { size: 12, bold: true, italic: false, upper: true, color: 'accent' },
+    body: { size: 10, bold: false, italic: false, upper: false, color: 'ink' },
+    listItem: { size: 10, bold: false, italic: false, upper: false, color: 'ink' },
+    entryTitle: { size: 11, bold: true, italic: false, upper: false, color: 'ink' },
+    entryOrganization: { size: 10, bold: false, italic: false, upper: false, color: 'ink' },
+    entryLocation: { size: 10, bold: false, italic: false, upper: false, color: 'ink' },
+    entryDates: { size: 10, bold: false, italic: true, upper: false, color: 'ink' },
+  },
+  colors: { ink: '#050505', line: '#CDCDCD', onAccent: '#FFFFFF' },
+  link: { color: 'accent', underline: false },
+  gaps: { sectionTitle: 6, paragraph: 6, listRow: 4, descriptionTop: 6, descriptionRow: 4, titleOrganization: 5, columnGutter: 12 },
+  continuationTopExtra: 8,
+  marker: { width: 4, height: 4, radius: 2, slot: 12, top: 4, color: 'ink' },
+  header: {
+    kind: 'band',
+    photo: { size: 64, radius: 32, gap: 16 },
+    rule: null,
+    contacts: 'band-line',
+    icons: false,
+    chip: null,
+    bandPadding: 18,
+  },
+  list: { defaultColumns: 1, oneColumnStyle: 'listItem', indent: 12, twoColumnIndent: 12, chip: null },
+  entries: { marker: 'none', defaultColumns: 1, indent: 0, timeline: null },
+  text: { defaultColumns: 1 },
+  zones: { main: 0.64, sidebar: 0.36, gutter: 16, defaults: { text: 'main', entries: 'main', list: 'sidebar', inline: 'sidebar' } },
+};

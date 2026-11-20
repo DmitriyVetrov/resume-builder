@@ -1,0 +1,27 @@
+Lucía Ñáñez-Šťastná | Інженерка
+Go • PostgreSQL • Kubernetes • Azure
+lucia@example.invalid | +34 600 000 000 • València, España • Residencia permanente | example.invalid/in/lucia (https://example.invalid/in/lucia)
+
+Resumen
+
+Ingeniera de software con experiencia en servicios distribuidos, migración de monolitos y mejora continua; también colabora con equipos de diseño, datos y atención al cliente en proyectos de larga duración.
+
+Experiencia
+
+Primero — Example Payments
+València | enero 2020 - Actualidad
+Worked on a payments platform for small merchants, moving reporting into a separate service and reducing the nightly batch window from six hours to forty minutes without changing the published schedule.
+
+Segundo — Example Payments
+València | enero 2020 - Actualidad
+Інженерка програмного забезпечення з досвідом розробки розподілених сервісів, міграції застарілих систем та налагодження процесів безперервної доставки для команд у різних часових поясах.
+
+Tercero — Example Payments
+València | enero 2020 - Actualidad
+Worked on a payments platform for small merchants, moving reporting into a separate service and reducing the nightly batch window from six hours to forty minutes without changing the published schedule.
+
+Skills
+
+- Go
+- SQL
+- Kubernetes

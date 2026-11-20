@@ -1,0 +1,699 @@
+{
+ "title": "Two pages",
+ "templateId": "T1",
+ "accentPreset": 0,
+ "language": "es",
+ "dateFormat": "MonthYearLong",
+ "layout": {
+  "fontPreset": "M",
+  "sectionSpacing": 10,
+  "entrySpacing": 10,
+  "lineSpacing": 1,
+  "pageSize": "A4",
+  "margins": {
+   "top": 23,
+   "right": 23,
+   "bottom": 23,
+   "left": 23
+  },
+  "bodyFont": null
+ },
+ "header": {
+  "fullName": "Lucía Ñáñez-Šťastná | Інженерка",
+  "headline": "Go • PostgreSQL • Kubernetes • Azure",
+  "showPhoto": true,
+  "contacts": [
+   {
+    "id": "01934f6e-7a2b-7c3d-8e4f-000000000001",
+    "text": "lucia@example.invalid",
+    "url": null,
+    "kind": "email"
+   },
+   {
+    "id": "01934f6e-7a2b-7c3d-8e4f-000000000002",
+    "text": "+34 600 000 000 • València, España • Residencia permanente",
+    "url": null,
+    "kind": "other"
+   },
+   {
+    "id": "01934f6e-7a2b-7c3d-8e4f-000000000003",
+    "text": "example.invalid/in/lucia",
+    "url": "https://example.invalid/in/lucia",
+    "kind": "link"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "hidden": false,
+   "listColumns": null,
+   "placement": null,
+   "id": "01934f6e-7a2b-7c3d-8e4f-000000000004",
+   "type": "text",
+   "title": "Resumen profesional",
+   "content": {
+    "body": [
+     {
+      "kind": "paragraph",
+      "inlines": [
+       {
+        "kind": "text",
+        "value": "Ingeniera de software con experiencia en servicios distribuidos, migración de monolitos y mejora continua; también colabora con equipos de diseño, datos y atención al cliente en proyectos de larga duración.",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "hidden": false,
+   "listColumns": null,
+   "placement": null,
+   "id": "01934f6e-7a2b-7c3d-8e4f-000000000005",
+   "type": "list",
+   "title": "Що я вмію",
+   "content": {
+    "items": [
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000006",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Backend en Go y C#, servicios escalables",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000007",
+      "text": [
+       {
+        "kind": "text",
+        "value": "REST y gRPC, integración con terceros",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000008",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Міграція монолітів на сервіси",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000009",
+      "text": [
+       {
+        "kind": "text",
+        "value": "PostgreSQL, Entity Framework, índices",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000010",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Kubernetes, Helm, Terraform",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000011",
+      "text": [
+       {
+        "kind": "text",
+        "value": "CI/CD, Azure DevOps, GitHub Actions",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "hidden": false,
+   "listColumns": null,
+   "placement": null,
+   "id": "01934f6e-7a2b-7c3d-8e4f-000000000012",
+   "type": "entries",
+   "title": "Experiencia profesional",
+   "content": {
+    "labels": null,
+    "entries": [
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000013",
+      "title": "Ingeniera de plataforma",
+      "organization": "Ñandú Sistemas",
+      "location": "València, España (Remoto)",
+      "start": {
+       "kind": "date",
+       "year": 2023,
+       "month": 1
+      },
+      "end": {
+       "kind": "present"
+      },
+      "dateText": "",
+      "description": [
+       {
+        "kind": "paragraph",
+        "inlines": [
+         {
+          "kind": "text",
+          "value": "Ingeniera de software con experiencia en servicios distribuidos, migración de monolitos y mejora continua; también colabora con equipos de diseño, datos y atención al cliente en proyectos de larga duración.",
+          "bold": false,
+          "italic": false,
+          "underline": false
+         }
+        ]
+       },
+       {
+        "kind": "bulletList",
+        "items": [
+         [
+          {
+           "kind": "text",
+           "value": "Rendimiento: ",
+           "bold": true,
+           "italic": false,
+           "underline": false
+          },
+          {
+           "kind": "text",
+           "value": "redujo la latencia p95 del servicio de facturación de 900 ms a 180 ms mediante caché y consultas nuevas.",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          }
+         ],
+         [
+          {
+           "kind": "text",
+           "value": "Відмовостійкість: ",
+           "bold": true,
+           "italic": false,
+           "underline": false
+          },
+          {
+           "kind": "text",
+           "value": "запровадила автоматичне відновлення черг і скоротила кількість нічних інцидентів удвічі протягом року.",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          }
+         ],
+         [
+          {
+           "kind": "text",
+           "value": "Observability: ",
+           "bold": false,
+           "italic": true,
+           "underline": false
+          },
+          {
+           "kind": "text",
+           "value": "introduced structured logs and tracing across fourteen services, and retired two legacy dashboards.",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          }
+         ],
+         [
+          {
+           "kind": "text",
+           "value": "Published the ",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          },
+          {
+           "kind": "link",
+           "url": "https://example.invalid/runbook",
+           "children": [
+            {
+             "kind": "text",
+             "value": "on-call runbook",
+             "bold": false,
+             "italic": false,
+             "underline": false
+            }
+           ]
+          },
+          {
+           "kind": "text",
+           "value": " and trained three teams to use it during incidents.",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          }
+         ]
+        ]
+       }
+      ],
+      "pageBreakBefore": false
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000014",
+      "title": "Backend Engineer",
+      "organization": "Example Payments",
+      "location": "Windsor, Canada (Freelance, Remote)",
+      "start": {
+       "kind": "date",
+       "year": 2021,
+       "month": 4
+      },
+      "end": {
+       "kind": "date",
+       "year": 2023,
+       "month": 6
+      },
+      "dateText": "",
+      "description": [
+       {
+        "kind": "paragraph",
+        "inlines": [
+         {
+          "kind": "text",
+          "value": "Інженерка програмного забезпечення з досвідом розробки розподілених сервісів, міграції застарілих систем та налагодження процесів безперервної доставки для команд у різних часових поясах.",
+          "bold": false,
+          "italic": false,
+          "underline": false
+         }
+        ]
+       },
+       {
+        "kind": "bulletList",
+        "items": [
+         [
+          {
+           "kind": "text",
+           "value": "Відмовостійкість: ",
+           "bold": true,
+           "italic": false,
+           "underline": false
+          },
+          {
+           "kind": "text",
+           "value": "запровадила автоматичне відновлення черг і скоротила кількість нічних інцидентів удвічі протягом року.",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          }
+         ],
+         [
+          {
+           "kind": "text",
+           "value": "Observability: ",
+           "bold": false,
+           "italic": true,
+           "underline": false
+          },
+          {
+           "kind": "text",
+           "value": "introduced structured logs and tracing across fourteen services, and retired two legacy dashboards.",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          }
+         ],
+         [
+          {
+           "kind": "text",
+           "value": "Published the ",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          },
+          {
+           "kind": "link",
+           "url": "https://example.invalid/runbook",
+           "children": [
+            {
+             "kind": "text",
+             "value": "on-call runbook",
+             "bold": false,
+             "italic": false,
+             "underline": false
+            }
+           ]
+          },
+          {
+           "kind": "text",
+           "value": " and trained three teams to use it during incidents.",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          }
+         ],
+         [
+          {
+           "kind": "text",
+           "value": "Mentored four engineers; two now lead their own teams on separate product lines.",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          }
+         ],
+         [
+          {
+           "kind": "text",
+           "value": "Automated release notes and reduced the time from merge to production to under an hour.",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          }
+         ],
+         [
+          {
+           "kind": "text",
+           "value": "Rendimiento: ",
+           "bold": true,
+           "italic": false,
+           "underline": false
+          },
+          {
+           "kind": "text",
+           "value": "redujo la latencia p95 del servicio de facturación de 900 ms a 180 ms mediante caché y consultas nuevas.",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          }
+         ],
+         [
+          {
+           "kind": "text",
+           "value": "Відмовостійкість: ",
+           "bold": true,
+           "italic": false,
+           "underline": false
+          },
+          {
+           "kind": "text",
+           "value": "запровадила автоматичне відновлення черг і скоротила кількість нічних інцидентів удвічі протягом року.",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          }
+         ],
+         [
+          {
+           "kind": "text",
+           "value": "Observability: ",
+           "bold": false,
+           "italic": true,
+           "underline": false
+          },
+          {
+           "kind": "text",
+           "value": "introduced structured logs and tracing across fourteen services, and retired two legacy dashboards.",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          }
+         ],
+         [
+          {
+           "kind": "text",
+           "value": "Published the ",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          },
+          {
+           "kind": "link",
+           "url": "https://example.invalid/runbook",
+           "children": [
+            {
+             "kind": "text",
+             "value": "on-call runbook",
+             "bold": false,
+             "italic": false,
+             "underline": false
+            }
+           ]
+          },
+          {
+           "kind": "text",
+           "value": " and trained three teams to use it during incidents.",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          }
+         ],
+         [
+          {
+           "kind": "text",
+           "value": "Mentored four engineers; two now lead their own teams on separate product lines.",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          }
+         ],
+         [
+          {
+           "kind": "text",
+           "value": "Automated release notes and reduced the time from merge to production to under an hour.",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          }
+         ],
+         [
+          {
+           "kind": "text",
+           "value": "Rendimiento: ",
+           "bold": true,
+           "italic": false,
+           "underline": false
+          },
+          {
+           "kind": "text",
+           "value": "redujo la latencia p95 del servicio de facturación de 900 ms a 180 ms mediante caché y consultas nuevas.",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          }
+         ],
+         [
+          {
+           "kind": "text",
+           "value": "Відмовостійкість: ",
+           "bold": true,
+           "italic": false,
+           "underline": false
+          },
+          {
+           "kind": "text",
+           "value": "запровадила автоматичне відновлення черг і скоротила кількість нічних інцидентів удвічі протягом року.",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          }
+         ],
+         [
+          {
+           "kind": "text",
+           "value": "Observability: ",
+           "bold": false,
+           "italic": true,
+           "underline": false
+          },
+          {
+           "kind": "text",
+           "value": "introduced structured logs and tracing across fourteen services, and retired two legacy dashboards.",
+           "bold": false,
+           "italic": false,
+           "underline": false
+          }
+         ]
+        ]
+       }
+      ],
+      "pageBreakBefore": false
+     }
+    ]
+   }
+  },
+  {
+   "hidden": false,
+   "listColumns": null,
+   "placement": null,
+   "id": "01934f6e-7a2b-7c3d-8e4f-000000000015",
+   "type": "entries",
+   "title": "Освіта",
+   "content": {
+    "labels": {
+     "title": "Degree",
+     "organization": "Institution",
+     "location": null
+    },
+    "entries": [
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000016",
+      "title": "Máster en Ingeniería Informática",
+      "organization": "Universidad de València",
+      "location": "València, España",
+      "start": {
+       "kind": "date",
+       "year": 2010,
+       "month": null
+      },
+      "end": {
+       "kind": "date",
+       "year": 2012,
+       "month": null
+      },
+      "dateText": "",
+      "description": [],
+      "pageBreakBefore": false
+     }
+    ]
+   }
+  },
+  {
+   "hidden": false,
+   "listColumns": 1,
+   "placement": null,
+   "id": "01934f6e-7a2b-7c3d-8e4f-000000000017",
+   "type": "list",
+   "title": "Technical skills",
+   "content": {
+    "items": [
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000018",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Bases de datos: ",
+        "bold": true,
+        "italic": false,
+        "underline": false
+       },
+       {
+        "kind": "text",
+        "value": "PostgreSQL, SQL Server, Redis",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "id": "01934f6e-7a2b-7c3d-8e4f-000000000019",
+      "text": [
+       {
+        "kind": "text",
+        "value": "Хмара: ",
+        "bold": true,
+        "italic": false,
+        "underline": false
+       },
+       {
+        "kind": "text",
+        "value": "Azure, Kubernetes, Docker",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "hidden": false,
+   "listColumns": null,
+   "placement": null,
+   "id": "01934f6e-7a2b-7c3d-8e4f-000000000020",
+   "type": "inline",
+   "title": "Languages",
+   "content": {
+    "body": [
+     {
+      "kind": "paragraph",
+      "inlines": [
+       {
+        "kind": "text",
+        "value": "Español",
+        "bold": true,
+        "italic": false,
+        "underline": false
+       },
+       {
+        "kind": "text",
+        "value": " - nativo | ",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       },
+       {
+        "kind": "text",
+        "value": "Українська",
+        "bold": true,
+        "italic": false,
+        "underline": false
+       },
+       {
+        "kind": "text",
+        "value": " - рідна | ",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       },
+       {
+        "kind": "text",
+        "value": "English",
+        "bold": true,
+        "italic": false,
+        "underline": false
+       },
+       {
+        "kind": "text",
+        "value": " - B2 | ",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       },
+       {
+        "kind": "text",
+        "value": "Slovenčina",
+        "bold": true,
+        "italic": false,
+        "underline": false
+       },
+       {
+        "kind": "text",
+        "value": " - pokročilá",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

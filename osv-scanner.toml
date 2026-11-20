@@ -1,0 +1,29 @@
+[[IgnoredVulns]]
+id = "GHSA-qxc2-j82w-r537"
+ignoreUntil = 2026-11-17
+reason = "P02 contract-test dev dependency only; not shipped; remediation owner: Test Engineer (DD-P03-22)"
+
+[[IgnoredVulns]]
+id = "GHSA-f23m-r3pf-42rh"
+ignoreUntil = 2026-11-17
+reason = "P02 contract-test dev dependency only; not shipped; remediation owner: Test Engineer (DD-P03-22)"
+
+[[IgnoredVulns]]
+id = "GHSA-r5fr-rjxr-66jc"
+ignoreUntil = 2026-11-17
+reason = "P02 contract-test dev dependency only; not shipped; remediation owner: Test Engineer (DD-P03-22)"
+
+[[IgnoredVulns]]
+id = "GHSA-xxjr-mmjv-4gpg"
+ignoreUntil = 2026-11-17
+reason = "P02 contract-test dev dependency only; not shipped; remediation owner: Test Engineer (DD-P03-22)"
+
+[[IgnoredVulns]]
+id = "GHSA-g3hv-75wg-m249"
+ignoreUntil = 2026-11-17
+reason = "P02 contract-test dev dependency only; not shipped; remediation owner: Test Engineer (DD-P03-22)"
+
+[[IgnoredVulns]]
+id = "GHSA-w5hq-g745-h8pq"
+ignoreUntil = 2026-11-17
+reason = "P02 contract-test dev dependency only; not shipped; remediation owner: Test Engineer (DD-P03-22)"

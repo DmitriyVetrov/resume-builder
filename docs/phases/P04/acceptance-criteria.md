@@ -1,0 +1,14 @@
+# P04 Acceptance Criteria
+
+The original phase requirement remains: **backend builds; layering rules pass; health endpoint and contract validation work**. Each item below is Must, with positive and negative behavior to be covered within the kickoff test budget. Source IDs refer to TECHNICAL-SPEC §§10–11, the frozen P02 OpenAPI v1.0.0 and Accepted ADRs.
+
+| ID | Source | Observable pass/fail criterion |
+|---|---|---|
+| AC-P04-01 | TECHNICAL-SPEC §10; ADR-008 F-BE-1…4 | A locked restore and Release build of all four projects pass on `net10.0`; executable tests enforce the permitted project references and SDK isolation. A deliberately forbidden dependency is detected by the fitness rule; endpoint code never references persistence SDK types. |
+| AC-P04-02 | NFR-10; OpenAPI `getLiveness`, `getReadiness` | Anonymous liveness returns 200 `application/json` with `{"status":"ok"}` while the host runs, even if MongoDB is unavailable. Anonymous readiness returns the same 200 body when MongoDB responds, and 503 `application/problem+json` matching `ServiceUnavailable` when it does not; no dependency identity/timing leaks. |
+| AC-P04-03 | NFR-08/09; ADR-038; P02 OpenAPI | Both health routes apply the `global` 600/minute/IP policy and return 429 with `Retry-After` and the contracted `Problem` after exhaustion. Untrusted forwarding headers cannot change the rate-limit identity; only configured trusted hops may do so. No credentials or secret values appear in error bodies or logs. |
+| AC-P04-04 | NFR-08/09; ADR-006; P02 `Problem` | An unexpected exception returns a generic RFC 9457 `application/problem+json` response with status, stable code and trace ID; it does not expose exception text, request data or configuration. Invalid required configuration fails startup predictably without printing the connection string. |
+| AC-P04-05 | NFR-13; ADR-008 F-BE-5 | Structured logs contain allow-listed operational scalars only, with a correlation ID for failures. Tests reject logging of resume, rich-text, contact or photo types and verify a synthetic sensitive request/exception value does not appear in captured logs. |
+| AC-P04-06 | ADR-006/040/041; P02 OpenAPI | Contract validation passes for the P04 slice: the in-box document's implemented operation/method/path/status/security inventory equals `x-phase: P04` with no undocumented operation; all P04 examples strict-round-trip through C# response DTOs; live 200/429/503/default bodies validate against the corresponding JSON Schema 2020-12 schemas. Existing P02 contract suite remains green. |
+
+Test Architect defines concrete cases and test environment; Test Engineer supplies red evidence before implementation. Phase QA runs the P04 suite and records exact commands, exit codes and any blocked environment precondition. No existing contract, test or criterion may be weakened to obtain a pass.

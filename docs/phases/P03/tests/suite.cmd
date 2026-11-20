@@ -1,0 +1,1 @@
+bash scripts/ci/local.sh; local_status=$?; python3 -B -m unittest discover -s tests/infrastructure -p 'test_*.py' -v; infrastructure_status=$?; test "$local_status" -eq 0 && test "$infrastructure_status" -eq 0

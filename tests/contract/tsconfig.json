@@ -1,0 +1,1 @@
+{"compilerOptions":{"strict":true,"noUncheckedIndexedAccess":true,"exactOptionalPropertyTypes":true,"skipLibCheck":false,"noEmit":true,"target":"ES2022","module":"NodeNext","moduleResolution":"NodeNext"},"include":[".work/*.ts"]}

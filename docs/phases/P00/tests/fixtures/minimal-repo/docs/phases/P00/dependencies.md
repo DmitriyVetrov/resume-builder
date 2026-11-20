@@ -1,0 +1,3 @@
+# Dependencies (fixture)
+
+None.

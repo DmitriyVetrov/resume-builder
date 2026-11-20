@@ -1,0 +1,13 @@
+{
+  "name": "resumiser-rendering-tests",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "bundle": "node bundle.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56.1",
+    "esbuild": "0.28.2",
+    "pngjs": "7.0.0"
+  }
+}

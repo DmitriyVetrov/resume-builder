@@ -1,0 +1,21 @@
+# P09 Decisions
+
+All entries are decided by the operator under delegation (ADR-051 S-5), 2026-11-05, and tagged `DELEGATED-DEFAULT`. No `OPEN` or `SOURCE-OPEN` register row touches this phase; D-18 (link colour in T1) stays with P10.
+
+| ID | Question and options | Decision and reason | Sources |
+|---|---|---|---|
+| DD-P09-01 (`DELEGATED-DEFAULT`) | Editing engine: hand-written `contentEditable`, ProseMirror, Tiptap, Lexical, Slate. | **ProseMirror directly, ADR-052.** A closed schema makes unsupported formatting unrepresentable. | ADR-052; FR-RTE; §10.2 |
+| DD-P09-02 (`DELEGATED-DEFAULT`) | `list_item` content in the schema: the usual `paragraph+`, or `inline*`. | **`inline*`.** It makes one list level and no block inside an item structural, and maps one to one to the AST's `items: Inline[][]`. | §10.2, FR-RTE-02/07 |
+| DD-P09-03 (`DELEGATED-DEFAULT`) | Paste: let the engine's parser read raw clipboard HTML, or read it first. | **An allow-list walker builds the AST, and the engine receives only that.** Word and Google Docs HTML needs source-specific reading anyway (fake lists, the `<b style="font-weight:normal">` wrapper), and the walker is testable without an editor. Schema `parseDOM` rules stay as a second barrier for drops. | FR-RTE-04, T-ID-11 |
+| DD-P09-04 (`DELEGATED-DEFAULT`) | Word's and Docs' bold in CSS: which values count? | **`font-weight` of `bold`, `bolder` or ≥ 600; `font-style: italic` or `oblique`; `text-decoration` containing `underline`.** `<b>`, `<strong>`, `<i>`, `<em>`, `<u>` count unless their own style says otherwise. Colours, fonts, sizes and everything else are dropped. | FR-RTE-04 |
+| DD-P09-05 (`DELEGATED-DEFAULT`) | Plain-text paste: keep a bullet typed as text? | **A line starting `- `, `* `, `• ` or `· ` becomes a bullet. Numbered lines stay paragraphs with their text,** because removing a typed number would change content and FR-RTE-07 has no numbered lists. In HTML, `<ol>` becomes bullets, because the numbering there is markup, not text. | FR-RTE-02/04/07 |
+| DD-P09-06 (`DELEGATED-DEFAULT`) | URL input in the link dialog. | **Trim, lower-case the scheme, accept `https`, `http`, `mailto`, `tel`. A bare e-mail gets `mailto:`, a phone `tel:`, a domain-like text `https://`. Everything else is a field error,** so `javascript:` cannot be saved. Uses the contract's `SafeUrl` pattern and limit. | R-6, FR-HDR-04, FR-RTE-03, C-10 |
+| DD-P09-07 (`DELEGATED-DEFAULT`) | Link with an empty selection. | **The dialog asks for link text as well as the URL,** as in the reference `img/30`. With a selection the text is the selection and its formatting is kept. Inside a link, the whole link is edited, and "Remove link" appears. | FR-RTE-03 |
+| DD-P09-08 (`DELEGATED-DEFAULT`) | Toolbar placement with up to 100 list items. | **`block`: a toolbar always shown above the field. `inline` and `line`: compact and shown only while focus is inside the field,** placed after the editable in DOM order, so Tab reaches it. Tab is never captured, so no focus trap (WCAG 2.1.2). Arrow keys move inside the toolbar (roving tabindex). | NFR-06, img/27 |
+| DD-P09-09 (`DELEGATED-DEFAULT`) | Property testing tool: `fast-check` or a small seeded generator. | **A seeded generator in the test file,** no new dev dependency for one property, and failures are reproducible by seed. | PHASE.md test strategy |
+| DD-P09-10 (`DELEGATED-DEFAULT`) | API round trip: how, with backend and frontend sharing no code? | **A JSON corpus at `tests/fixtures/rich-text/corpus.json`** read by a Vitest case and by `P09RichTextRoundTripTests`, which writes it through `replaceResumeDocument` and compares the read-back as JSON. Data is shared; code is not. | PHASE.md, CLAUDE.md integration boundary |
+| DD-P09-11 (`DELEGATED-DEFAULT`) | External review, info: ADR-052 and the register row live under `docs/blueprint/**`, which the plan's "Allowed paths" does not list. | **Recorded as an extension of this phase's paths.** The workflow puts ADRs in `docs/blueprint/decisions/`, and the gate script includes `docs/blueprint/**` in every phase's scope. | AGENT-WORKFLOW "Artifact ownership"; `scripts/phase-handoff-check.py` |
+
+## Register and ADR changes
+
+ADR-052 is new and Accepted. `DECISION-REGISTER.md` gains its row.

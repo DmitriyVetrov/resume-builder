@@ -1,0 +1,21 @@
+Lucía Ñáñez-Šťastná | Інженерка
+Go • PostgreSQL • Kubernetes • Azure
+lucia@example.invalid | +34 600 000 000 • València, España • Residencia permanente | example.invalid/in/lucia (https://example.invalid/in/lucia)
+
+Marcas
+
+negrita cursiva ambas subrayado enlace (https://example.invalid/a) fin.
+
+Primera línea
+Друга лінія
+Third line
+
+- Bold start then plain
+- correo (mailto:a@example.invalid)
+
+Skills
+
+- Go
+- PostgreSQL
+- Terraform
+- Azure DevOps

@@ -1,0 +1,370 @@
+[
+ {
+  "name": "word",
+  "html": "<html xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:w=\"urn:schemas-microsoft-com:office:word\"><head><meta name=Generator content=\"Microsoft Word 15\"><style><!-- p.MsoNormal {font-family:\"Calibri\",sans-serif;} --></style></head><body lang=EN-US><!--StartFragment--><p class=MsoNormal><span style='font-size:14.0pt;font-family:\"Comic Sans MS\";color:red'>Led the </span><b><span style='font-size:14.0pt'>platform</span></b><i> team</i><u> daily</u><o:p></o:p></p><p class=MsoListParagraphCxSpFirst style='text-indent:-.25in;mso-list:l0 level1 lfo1'><![if !supportLists]><span style='font-family:Symbol;mso-fareast-font-family:Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt \"Times New Roman\"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]>First <b>bullet</b><o:p></o:p></p><p class=MsoListParagraphCxSpLast style='text-indent:-.25in;mso-list:l0 level1 lfo1'><!--[if !supportLists]--><span style='font-family:Symbol'><span style='mso-list:Ignore'>·<span>&nbsp;&nbsp;</span></span></span><!--[endif]-->Second bullet<o:p></o:p></p><p class=MsoNormal><o:p>&nbsp;</o:p></p><p class=MsoNormal><a href=\"https://example.invalid/word\"><span style='color:blue'>A link</span></a><o:p></o:p></p><!--EndFragment--></body></html>",
+  "blocks": [
+   {
+    "kind": "paragraph",
+    "inlines": [
+     {
+      "kind": "text",
+      "value": "Led the ",
+      "bold": false,
+      "italic": false,
+      "underline": false
+     },
+     {
+      "kind": "text",
+      "value": "platform",
+      "bold": true,
+      "italic": false,
+      "underline": false
+     },
+     {
+      "kind": "text",
+      "value": " team",
+      "bold": false,
+      "italic": true,
+      "underline": false
+     },
+     {
+      "kind": "text",
+      "value": " daily",
+      "bold": false,
+      "italic": false,
+      "underline": true
+     }
+    ]
+   },
+   {
+    "kind": "bulletList",
+    "items": [
+     [
+      {
+       "kind": "text",
+       "value": "First ",
+       "bold": false,
+       "italic": false,
+       "underline": false
+      },
+      {
+       "kind": "text",
+       "value": "bullet",
+       "bold": true,
+       "italic": false,
+       "underline": false
+      }
+     ],
+     [
+      {
+       "kind": "text",
+       "value": "Second bullet",
+       "bold": false,
+       "italic": false,
+       "underline": false
+      }
+     ]
+    ]
+   },
+   {
+    "kind": "paragraph",
+    "inlines": [
+     {
+      "kind": "link",
+      "url": "https://example.invalid/word",
+      "children": [
+       {
+        "kind": "text",
+        "value": "A link",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "google docs",
+  "html": "<meta charset='utf-8'><b style=\"font-weight:normal;\" id=\"docs-internal-guid-1234abcd-7fff-1111\"><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt\"><span style=\"font-size:11pt;font-family:Arial;color:#000000;font-weight:400;font-style:normal;text-decoration:none\">Plain then </span><span style=\"font-size:11pt;font-weight:700\">bold</span><span style=\"font-size:11pt;font-weight:400;font-style:italic\"> italic</span><span style=\"font-size:11pt;font-weight:400;text-decoration:underline;-webkit-text-decoration-skip:none\"> under</span></p><ul style=\"margin-top:0;margin-bottom:0;padding-inline-start:48px;\"><li dir=\"ltr\" style=\"list-style-type:disc;font-size:11pt\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><span style=\"font-weight:400\">Docs bullet one</span></p></li><li dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\" role=\"presentation\"><span style=\"font-weight:700\">Docs bullet two</span></p></li></ul><p dir=\"ltr\"><a href=\"https://example.invalid/docs\" style=\"text-decoration:none;\"><span style=\"font-size:11pt;color:#1155cc;font-weight:400;text-decoration:underline\">docs link</span></a></p></b>",
+  "blocks": [
+   {
+    "kind": "paragraph",
+    "inlines": [
+     {
+      "kind": "text",
+      "value": "Plain then ",
+      "bold": false,
+      "italic": false,
+      "underline": false
+     },
+     {
+      "kind": "text",
+      "value": "bold",
+      "bold": true,
+      "italic": false,
+      "underline": false
+     },
+     {
+      "kind": "text",
+      "value": " italic",
+      "bold": false,
+      "italic": true,
+      "underline": false
+     },
+     {
+      "kind": "text",
+      "value": " under",
+      "bold": false,
+      "italic": false,
+      "underline": true
+     }
+    ]
+   },
+   {
+    "kind": "bulletList",
+    "items": [
+     [
+      {
+       "kind": "text",
+       "value": "Docs bullet one",
+       "bold": false,
+       "italic": false,
+       "underline": false
+      }
+     ],
+     [
+      {
+       "kind": "text",
+       "value": "Docs bullet two",
+       "bold": true,
+       "italic": false,
+       "underline": false
+      }
+     ]
+    ]
+   },
+   {
+    "kind": "paragraph",
+    "inlines": [
+     {
+      "kind": "link",
+      "url": "https://example.invalid/docs",
+      "children": [
+       {
+        "kind": "text",
+        "value": "docs link",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "web page",
+  "html": "<div style=\"font-family:Georgia;color:rgb(10,20,30);font-size:40px;background:yellow\"><h2 style=\"color:red\">Heading text</h2><p>Para with <strong>strong</strong>, <em>em</em> and <span style=\"font-weight:bold;font-style:italic\">both</span><br>after break</p><ol><li>Numbered one</li><li>Numbered two<ul><li>Nested deep</li></ul></li></ol><table><tr><td>Cell A</td><td>Cell <b>B</b></td></tr></table><img src=\"https://tracker.invalid/x.png\" alt=\"ignored\"><blockquote>Quoted</blockquote></div>",
+  "blocks": [
+   {
+    "kind": "paragraph",
+    "inlines": [
+     {
+      "kind": "text",
+      "value": "Heading text",
+      "bold": false,
+      "italic": false,
+      "underline": false
+     }
+    ]
+   },
+   {
+    "kind": "paragraph",
+    "inlines": [
+     {
+      "kind": "text",
+      "value": "Para with ",
+      "bold": false,
+      "italic": false,
+      "underline": false
+     },
+     {
+      "kind": "text",
+      "value": "strong",
+      "bold": true,
+      "italic": false,
+      "underline": false
+     },
+     {
+      "kind": "text",
+      "value": ", ",
+      "bold": false,
+      "italic": false,
+      "underline": false
+     },
+     {
+      "kind": "text",
+      "value": "em",
+      "bold": false,
+      "italic": true,
+      "underline": false
+     },
+     {
+      "kind": "text",
+      "value": " and ",
+      "bold": false,
+      "italic": false,
+      "underline": false
+     },
+     {
+      "kind": "text",
+      "value": "both",
+      "bold": true,
+      "italic": true,
+      "underline": false
+     },
+     {
+      "kind": "lineBreak"
+     },
+     {
+      "kind": "text",
+      "value": "after break",
+      "bold": false,
+      "italic": false,
+      "underline": false
+     }
+    ]
+   },
+   {
+    "kind": "bulletList",
+    "items": [
+     [
+      {
+       "kind": "text",
+       "value": "Numbered one",
+       "bold": false,
+       "italic": false,
+       "underline": false
+      }
+     ],
+     [
+      {
+       "kind": "text",
+       "value": "Numbered two",
+       "bold": false,
+       "italic": false,
+       "underline": false
+      }
+     ],
+     [
+      {
+       "kind": "text",
+       "value": "Nested deep",
+       "bold": false,
+       "italic": false,
+       "underline": false
+      }
+     ]
+    ]
+   },
+   {
+    "kind": "paragraph",
+    "inlines": [
+     {
+      "kind": "text",
+      "value": "Cell A",
+      "bold": false,
+      "italic": false,
+      "underline": false
+     }
+    ]
+   },
+   {
+    "kind": "paragraph",
+    "inlines": [
+     {
+      "kind": "text",
+      "value": "Cell ",
+      "bold": false,
+      "italic": false,
+      "underline": false
+     },
+     {
+      "kind": "text",
+      "value": "B",
+      "bold": true,
+      "italic": false,
+      "underline": false
+     }
+    ]
+   },
+   {
+    "kind": "paragraph",
+    "inlines": [
+     {
+      "kind": "text",
+      "value": "Quoted",
+      "bold": false,
+      "italic": false,
+      "underline": false
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "name": "hostile",
+  "html": "<script>window.__pwned=1</script><style>p{color:red}</style><p onclick=\"window.__pwned=2\">Safe <img src=x onerror=\"window.__pwned=3\"><a href=\"javascript:window.__pwned=4\">bad link</a> <a href=\"data:text/html,x\">data link</a> <a href=\"vbscript:x\">vb link</a> <a href=\"HTTPS://Example.invalid/ok\">ok link</a> <a href=\"www.example.invalid/w\">www link</a></p><iframe src=\"https://evil.invalid\"></iframe><svg onload=\"window.__pwned=5\"><text>svg text</text></svg>",
+  "blocks": [
+   {
+    "kind": "paragraph",
+    "inlines": [
+     {
+      "kind": "text",
+      "value": "Safe bad link data link vb link ",
+      "bold": false,
+      "italic": false,
+      "underline": false
+     },
+     {
+      "kind": "link",
+      "url": "https://Example.invalid/ok",
+      "children": [
+       {
+        "kind": "text",
+        "value": "ok link",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     },
+     {
+      "kind": "text",
+      "value": " ",
+      "bold": false,
+      "italic": false,
+      "underline": false
+     },
+     {
+      "kind": "link",
+      "url": "https://www.example.invalid/w",
+      "children": [
+       {
+        "kind": "text",
+        "value": "www link",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+]

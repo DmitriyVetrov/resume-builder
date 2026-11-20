@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <EmbeddedResource Include="Accounts/common-passwords.txt" LogicalName="ResumeBuilder.Domain.Accounts.common-passwords.txt" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,144 @@
+{
+ "title": "Contacts heavy",
+ "templateId": "T1",
+ "accentPreset": 0,
+ "language": "es",
+ "dateFormat": "MonthYearLong",
+ "layout": {
+  "fontPreset": "M",
+  "sectionSpacing": 10,
+  "entrySpacing": 10,
+  "lineSpacing": 1,
+  "pageSize": "A4",
+  "margins": {
+   "top": 23,
+   "right": 23,
+   "bottom": 23,
+   "left": 23
+  },
+  "bodyFont": null
+ },
+ "header": {
+  "fullName": "Lucía Ñáñez-Šťastná de la Fuente y Montenegro | Ingeniera de plataformas e Інженерка",
+  "headline": "Go • PostgreSQL • Kubernetes • Azure • Terraform • Observability • Migraciones • Міграції",
+  "showPhoto": true,
+  "contacts": [
+   {
+    "id": "01934f6e-7a2b-7c3d-8e4f-000000000021",
+    "text": "person00@example.invalid",
+    "url": null,
+    "kind": "email"
+   },
+   {
+    "id": "01934f6e-7a2b-7c3d-8e4f-000000000022",
+    "text": "person01@example.invalid",
+    "url": null,
+    "kind": "email"
+   },
+   {
+    "id": "01934f6e-7a2b-7c3d-8e4f-000000000023",
+    "text": "person02@example.invalid",
+    "url": null,
+    "kind": "email"
+   },
+   {
+    "id": "01934f6e-7a2b-7c3d-8e4f-000000000024",
+    "text": "+34 600 000 010",
+    "url": null,
+    "kind": "phone"
+   },
+   {
+    "id": "01934f6e-7a2b-7c3d-8e4f-000000000025",
+    "text": "+34 600 000 011",
+    "url": null,
+    "kind": "phone"
+   },
+   {
+    "id": "01934f6e-7a2b-7c3d-8e4f-000000000026",
+    "text": "+34 600 000 012",
+    "url": null,
+    "kind": "phone"
+   },
+   {
+    "id": "01934f6e-7a2b-7c3d-8e4f-000000000027",
+    "text": "València, España 20",
+    "url": null,
+    "kind": "location"
+   },
+   {
+    "id": "01934f6e-7a2b-7c3d-8e4f-000000000028",
+    "text": "València, España 21",
+    "url": null,
+    "kind": "location"
+   },
+   {
+    "id": "01934f6e-7a2b-7c3d-8e4f-000000000029",
+    "text": "València, España 22",
+    "url": null,
+    "kind": "location"
+   },
+   {
+    "id": "01934f6e-7a2b-7c3d-8e4f-000000000030",
+    "text": "example.invalid/in/person30",
+    "url": null,
+    "kind": "link"
+   },
+   {
+    "id": "01934f6e-7a2b-7c3d-8e4f-000000000031",
+    "text": "example.invalid/in/person31",
+    "url": null,
+    "kind": "link"
+   },
+   {
+    "id": "01934f6e-7a2b-7c3d-8e4f-000000000032",
+    "text": "example.invalid/in/person32",
+    "url": null,
+    "kind": "link"
+   },
+   {
+    "id": "01934f6e-7a2b-7c3d-8e4f-000000000033",
+    "text": "València, España 40",
+    "url": null,
+    "kind": "other"
+   },
+   {
+    "id": "01934f6e-7a2b-7c3d-8e4f-000000000034",
+    "text": "València, España 41",
+    "url": null,
+    "kind": "other"
+   },
+   {
+    "id": "01934f6e-7a2b-7c3d-8e4f-000000000035",
+    "text": "València, España 42",
+    "url": null,
+    "kind": "other"
+   }
+  ]
+ },
+ "sections": [
+  {
+   "hidden": false,
+   "listColumns": null,
+   "placement": null,
+   "id": "01934f6e-7a2b-7c3d-8e4f-000000000020",
+   "type": "text",
+   "title": "Resumen",
+   "content": {
+    "body": [
+     {
+      "kind": "paragraph",
+      "inlines": [
+       {
+        "kind": "text",
+        "value": "Ingeniera de software con experiencia en servicios distribuidos, migración de monolitos y mejora continua; también colabora con equipos de diseño, datos y atención al cliente en proyectos de larga duración.",
+        "bold": false,
+        "italic": false,
+        "underline": false
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}
