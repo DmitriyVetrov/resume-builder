@@ -15,7 +15,7 @@ services:
       interval: 10s
       retries: 5
   mongo:
-    image: mongo:8.0.15@sha256:f4d54619262ae3bc6a0a8efbebcef970b87b8ad70697479a75ce308a6f400158
+    image: mongo:9.0.8@sha256:b0c835c26e5997413e985000f1013c275377cd9607761c1784d486f6dd620b7f
     command: ["mongod", "--replSet", "rs0", "--bind_ip_all"]
     ports: ["127.0.0.1:${RESUMISER_MONGO_PORT:-27017}:27017"]
     volumes: ["mongo-data:/data/db"]
